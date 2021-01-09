@@ -48,8 +48,7 @@ h2 {
 
 #photo {
     max-width: 50%;
-    float: right;
-    margin-bottom: -10px;
+  
     overflow: auto;
 
 }
