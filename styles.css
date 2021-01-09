@@ -1,28 +1,30 @@
-/*  --block-color: #9E0101; red
-  --background-color: #D9DEDE; grey white
-  --accent1-color: #6888E8; blue blue
-  --accent2-color: #9EA6B1; gray
-*/
-
 body {
-    background-color: #D9DEDE;
+    background-color: rgba(196, 196, 196, 0.336);
     font-family: sans-serif;
     font-size: 1.1em;
 }
 
-header {
-    align-items: center;
+head {
     display: grid;
-    grid-template-columns: 110px auto;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5em;
+    align-items: center;
 }
 
-nav a {
-    color:cornflowerblue;
+#content {
+    background-color: #9E0101;
+    color: white;
+    border-radius: 12px;
+  
+}
+
+a {
+    color: black;
     font-size: 1.1em;
     text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -36,190 +38,55 @@ nav ul li {
     text-align: center;
 }
 
-.logo-box {
-    width: 150%;
-}
-
-main p {
-    line-height: 1.5em;
-}
-
 h2 {
     font-family: "Raleway", Arial, sans-serif;
     font-size: 1.8em;
     padding: 0.5em;
     margin-bottom: -10px;
-    border-top: 5px double;
-    border-bottom: 5px double;
+    border-bottom: 3px solid;
 }
 
-img {
-    max-width: 100%;
+#photo {
+    max-width: 50%;
+    float: right;
+    margin-bottom: -10px;
+
 }
 
-#content {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.home-grid {
+header {
+    font-size: 1.8em;
+    white-space: nowrap;
+    align-items: right;
+    background-color: #9E0101;
+    color: white;
+    border-radius: 12px;
+    padding: 0.5em;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1em;
+    grid-template-columns: 1fr;
+    width: 100%
+}
+
+footer {
+    background-color: #9E0101;
+    color: white;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding: 0.5em;
+}
+
+footer {
+    align-items: center;
 }
 
 .home-headline-1 {
     grid-column: 1/4;
     grid-row: 1/2;
-}
-
-.home-paragraph-1 {
-    grid-column: 2/4;
-    grid-row: 2/4;
-}
-
-.home-right-img {
-    grid-column: 4/6;
-    grid-row: 1/3;
-}
-
-.home-headline-2 {
-    grid-column: 3/6;
-    grid-row: 4/5;
-    text-align: right;
-}
-
-.home-paragraph-2 {
-    grid-column: 4/6;
-    grid-row: 5/7;
-}
-
-.home-left-img {
-    grid-column: 1/3;
-    grid-row: 4/6;
-    box-sizing: border-box;
-}
-
-#banner-image {
-    width: 100%;
-    height: auto;
-}
-
-.banner-box img {
-    width: 100%;
-}
-
-.home-paragraph-3 {
-    grid-column: 1/6;
-    grid-row: 7/8;
-    text-align: center;
-}
-
-.home-left-img,
-.home-right-img {
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-shadow: 5px 5px 5px #999;
-}
-
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0.5em;
     align-items: center;
 }
 
-.social {
-    text-align: right;
+.portrait {
+    float: right;
+    width: 218.703;
+    height: 10px;
 }
-
-header,
-footer {
-    background-color: #9EA6B1;
-}
-
-.description {
-    font-size: 25px;
-    margin-top: 0em;
-    text-align: center;
-}
-
-.adventure-grid {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-template-rows: repeat(10, auto);
-    justify-items: center;
-}
-
-.adventure-headline-1 {
-    grid-column: 1/3;
-    grid-row: 1/2;
-}
-
-.adventure-paragraph-1 {
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-
-.adventure-calendar-1-img {
-    grid-column: 4/6;
-    grid-row: 2/4;
-}
-
-.adventure-paragraph-1-sub {
-    grid-column: 2/4;
-    grid-row: 3/5;
-}
-
-.adventure-headline-2 {
-    grid-column: 1/3;
-    grid-row: 5/6;
-}
-
-.adventure-paragraph-2 {
-    grid-column: 2/4;
-    grid-row: 6/7;
-}
-
-.adventure-calendar-2-img {
-    grid-column: 4/6;
-    grid-row: 6/6;
-}
-
-.adventure-headline-3 {
-    grid-column: 1/3;
-    grid-row: 8/9;
-}
-
-.adventure-paragraph-3 {
-    grid-column: 2/4;
-    grid-row: 9/10;
-}
-
-.adventure-calendar-3-img {
-    grid-column: 4/6;
-    grid-row: 9/9;
-}
-
-.adventure-calendar-3-img,
-.adventure-calendar-2-img,
-.adventure-calendar-1-img {
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-shadow: 5px 5px 5px #999;
-}
-
-@media screen and (max-width: 550px) {
-
-    /* beginning of media query */
-    .home-grid,
-    nav ul {
-        display: block;
-    }
-
-    .social img {
-        width: 45px;
-    }
-}
-
-/* end of media query */
