@@ -50,6 +50,7 @@ h2 {
     max-width: 50%;
     float: right;
     margin-bottom: -10px;
+    overflow: auto;
 
 }
 
@@ -63,7 +64,7 @@ header {
     border-radius: 12px;
     padding: 0.5em;
     width: 100%
-    overflow: auto;
+
 }
 
 footer {
