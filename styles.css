@@ -70,7 +70,7 @@ footer {
 
 .name {
     display: grid;
-    grid-template-columns: 2/3;
+   
         font-size: 2em;
     white-space: nowrap;
     color: white;
