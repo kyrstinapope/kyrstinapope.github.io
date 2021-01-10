@@ -96,8 +96,8 @@ footer {
 .social {
     font-size: 1em;
     white-space: nowrap;
-    align-items: center;
-    color: white;
+      color: white;
     padding-top: 20px;
     padding-left: 422px;
+    align-items: center;
 }
