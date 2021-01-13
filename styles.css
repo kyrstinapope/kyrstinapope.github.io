@@ -18,7 +18,7 @@ header {
     grid-template-columns: auto auto auto;
    }
 
-header img {
+.portrait {
     height: 265px;
     margin-right: 118px;
     margin-top: -47px;
