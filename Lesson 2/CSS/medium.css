@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 32.5em) {
 .portrait {
     float: right;
     box-shadow: 6px 6px 6px grey;
