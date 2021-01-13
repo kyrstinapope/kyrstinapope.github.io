@@ -14,13 +14,18 @@ header {
     background-color: #9E0101;
     border-radius: 12px;
     height: 70px;
-    
+    font-family: 'Yusei Magic', sans-serif;
     grid-template-columns: auto auto auto;
    }
 
+header img {
+    height: 265px;
+    margin-right: 118px;
+    margin-top: -47px;
+}
 
 h2 {
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.8em;
     padding: 0.5em;
     margin-bottom: -10px;
@@ -31,7 +36,7 @@ a {
     color: rgb(240, 119, 119);
     font-size: 1.1em;
     text-decoration: underline;
-    ;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a:hover {
@@ -53,6 +58,7 @@ footer {
     color: white;
     border-radius: 12px;
     height: 70px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .home-headline-1 {
@@ -70,8 +76,7 @@ footer {
 
 .name {
     display: grid;
-   
-        font-size: 2em;
+    font-size: 2em;
     white-space: nowrap;
     color: white;
     padding-top: 20px;
@@ -79,24 +84,10 @@ footer {
    
 }
 
-.portrait {
-    max-width: 150%;
-    overflow: auto;
-    float: right;
-    height: 265px;
-    margin-right: 118px;
-    margin-left: 500px;
-    margin-top: -47px;
-    box-shadow: 6px 6px 6px grey;
-    border-radius: 12px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
 .social {
     font-size: 1em;
     white-space: nowrap;
-      color: white;
+    color: white;
     padding-top: 20px;
     padding-left: 422px;
     align-items: center;
