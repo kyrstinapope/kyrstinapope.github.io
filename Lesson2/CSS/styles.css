@@ -78,3 +78,15 @@ footer {
     height: 70px;
     font-family: 'Montserrat', sans-serif;
 }
+@media only screen and (min-width: 600px) {
+    .portrait {
+        float: right;
+        box-shadow: 6px 6px 6px grey;
+        border-radius: 12px;
+        width: 50%;
+        height: auto;
+    }
+    h1 {
+        color: aquamarine;
+    }
+}
