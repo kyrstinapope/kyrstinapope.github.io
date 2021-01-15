@@ -7,15 +7,15 @@
     <meta name="description" content="Kyrstina's Assignment Portal for BYUI Online-WDD230 2021">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yusei+Magic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="/Lesson2/CSS/medium.css" />
+    <link rel="stylesheet" href="../lesson1/css/normalize.css" />
+    <link rel="stylesheet" href="../lesson1/css/styles.css" />
+    <link rel="stylesheet" href="../kyrstinapope.github.io/lesson2/css/medium.css" />
 </head>
 
 <body>
     <header>
         <h1 class="name">Kyrstina M. Pope</h1>
-        <img class="portrait" src="/Lesson1/Images/KyrstinaPortrait.jpg" alt="Kyrstina's Portrait" />
+        <img class="portrait" src="../lesson1/images/kyrstina-portrait.jpg" alt="Kyrstina's Portrait" />
     </header>
 
     <main>
@@ -24,7 +24,8 @@
         <h2 class="home-headline-1">WDD 230: Assingment Portal</h2>
         <div class="links-grid">
             <ul>
-                <li>Lesson 02: <a href="design-principles.html">Design Principles</a></li>
+                <li>Lesson 02: <a href="../lesson2/html/design-principles.html">Design
+                        Principles</a></li>
                 <li>Lesson 03: <a href="index.html">Assignment Link</a></li>
                 <li>Lesson 04: <a href="index.html">Assignment Link</a></li>
                 <li>Lesson 05: <a href="index.html">Assignment Link</a></li>
@@ -38,16 +39,15 @@
             &copy; 2021 - Kyrstina Pope | Idaho | <a target="_blank" href="https://www.byui.edu/online">BYUI Online
                 Learning
             </a> <br>
-            Last Modified:
-            <script>
-                document.write(document.lastModified)
+            Last Modified: <span id="last-modified"></span>
 
-                    <script scr = "Lesson1\JS\date.js" ></script>
-            </script>
+            document.write(document.lastModified)
+
+
+
         </div>
     </footer>
-
-
+    <script src="/Lesson1/JS/date.js"></script>
 </body>
 
 </html>
