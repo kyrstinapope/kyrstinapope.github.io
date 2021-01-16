@@ -1,0 +1,17 @@
+@media (min-width: 60em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    section {
+        grid-column: span 3;
+    }
+    #design1 h2 {
+        font-size: 3em;
+        color: black;
+        margin: 4px 402px -29px;
+    }
+        img {
+            width: 40%;
+            height: auto;
+        }
+    }

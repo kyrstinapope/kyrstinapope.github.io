@@ -33,11 +33,28 @@ h2 {
     margin: 24px 70px -15px;
     font-family: 'Montserrat', sans-serif;
     border-bottom: 3px solid;
+    background-color: #816e6e;
+    border-radius: 10px;
+}
+
+#design1 h2 {
+    font-size: 3em;
+    color: black;
+    margin: 4px 346px -29px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 3px solid;
+    background-color: #9b8f8f;
+    border-radius: 10px;
 }
 
 main {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
+}
+
+section {
+    grid-column: auto;
 }
 
 img {
@@ -48,7 +65,7 @@ img {
     box-shadow: 6px 6px 6px grey;
     border-radius: 12px;
     width: 80%;
-    height: auto;
+    height: 70%;
 }
 
 p {
@@ -69,11 +86,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-design1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
 
 footer {
