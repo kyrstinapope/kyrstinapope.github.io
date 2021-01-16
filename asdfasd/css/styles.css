@@ -12,16 +12,21 @@ head {
 
 header {
     background-color: #9E0101;
-    border-radius: 12px;
-    height: 70px;
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 25px;
+    text-align: center;
     font-family: 'Yusei Magic', sans-serif;
-    grid-template-columns: auto auto auto;
 }
 
 .portrait {
     height: 265px;
     margin-right: 118px;
     margin-top: -47px;
+    float: right;
+    box-shadow: 6px 6px 6px grey;
+    border-radius: 12px;
 }
 
 h2 {
@@ -54,9 +59,10 @@ nav ul li {
 
 footer {
     background-color: #9E0101;
-    color: white;
-    border-radius: 12px;
-    height: 70px;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -78,25 +84,16 @@ footer {
     font-size: 2em;
     white-space: nowrap;
     color: white;
+    text-align: center;
     padding-top: 20px;
-    padding-left: 500px;
 }
 
 .social {
     font-size: 1em;
     white-space: nowrap;
     color: white;
+    text-align: center;
     padding-top: 20px;
-    padding-left: 422px;
-    align-items: center;
 }
-@media only screen and (min-width: 32.5em) {
-    .portrait {
-        float: right;
-        box-shadow: 6px 6px 6px grey;
-        border-radius: 12px;
-    }
-    .name {
-        color: aquamarine;
-    }
+
 }

@@ -24,3 +24,4 @@ let months=[
 let d=newdate();
 
 document.getElementById()
+document.write(document.lastModified)

@@ -1,0 +1,30 @@
+@media (min-width: 300px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        box-shadow: 6px 6px 6px grey;
+        border-radius: 12px;
+        width: 40%;
+        height: auto;
+    }
+    section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    design1 h2, a, img {
+        grid-column: 1/3;
+         grid-row: 1/3;
+    }
+    design2 h2, a, img {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    design3 h2, a, img {
+        grid-column: 3/3;
+        grid-row: 3/3;
+    }
+    
+    
+}
+
