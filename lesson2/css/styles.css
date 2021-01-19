@@ -12,6 +12,7 @@ body {
     background-color: rgba(196, 196, 196, 0.336);
     font-family: sans-serif;
     font-size: 1.1em;
+    width: 100%;
 }
 
 head {
@@ -37,7 +38,7 @@ h2 {
     border-radius: 10px;
 }
 
-#design1 h2 {
+.design1 h2 {
     font-size: 3em;
     color: black;
     margin: 4px 346px -29px;
