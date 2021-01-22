@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(168, 168, 241);
+}
+
+header {
+    background-color: yellow;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 8px;
+    width: 98%;
+    height: 239px;
+    /* margin-bottom: 25px; */
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+.logo {
+    height: 55px;
+    margin-left: 8px;
+    margin-top: -119px;
+    float: left;
+    /* box-shadow: 6px 6px 6px grey; */
+    /* border-radius: 42px;*/
+}
+
+h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: orangered;
+    padding-top: 14px;
+}
+
+h2 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: ;
+}
+
+nav {
+    background-color: ;
+    text-align: ;
+    box-shadow: ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: ;
+    text-align: center;
+    padding: ;
+    text-decoration: none;
+    font-size: ;
+}
+
+nav a:hover {
+    background-color: rgb(95, 95, 243);
+    color: ;
+    display: inline;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    background-color: yellow;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 8px;
+    width: 98%;
+    height: 140px;
+    white-space: pre-line;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    color: rgb(255, 51, 0);
+}

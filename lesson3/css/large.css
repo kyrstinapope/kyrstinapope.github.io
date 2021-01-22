@@ -1,0 +1,10 @@
+@media screen and (min-width: 60em) {
+    p {
+        text-align: center;
+    }
+    footer {
+        white-space: nowrap;
+        height: 120px;
+    }
+
+ }
