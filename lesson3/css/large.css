@@ -1,4 +1,7 @@
 @media screen and (min-width: 60em) {
+    header{
+        width: 100%;
+    }
     p {
         font-size: 1.5em;
     }
@@ -19,5 +22,6 @@
         white-space: nowrap;
         text-align: center;
         padding-top: 20px;
+        width: 100%;
     }
 }
