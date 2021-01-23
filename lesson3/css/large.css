@@ -1,10 +1,23 @@
 @media screen and (min-width: 60em) {
     p {
-        text-align: center;
+        font-size: 2em;
+    }
+    h1, h2 {
+        font-size: 2.5em;
+    }
+    .logo {
+        height: 173px;
+        margin-left: -32px;
+        margin-top: -137px;
+    }
+    nav li a {
+        font-size: 1.5em;
     }
     footer {
+        font-size: 1.5em;
+        height: 64px;
         white-space: nowrap;
-        height: 120px;
+        text-align: center;
+        padding-top: 20px;
     }
-
- }
+}
