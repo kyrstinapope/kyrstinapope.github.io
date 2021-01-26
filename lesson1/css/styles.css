@@ -1,7 +1,7 @@
 body {
     background-color: rgba(196, 196, 196, 0.336);
     font-family: sans-serif;
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 head {
@@ -57,9 +57,6 @@ nav ul li {
     text-align: center;
 }
 
-span {
-    font-weight: 700px;
-}
 
 #currentdate {
     color: black;

@@ -1,0 +1,13 @@
+@media screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 1em;
+    }
+    iframe{
+        width: 95%;
+        height: 297px;
+    }
+    .social {
+        white-space: nowrap;
+        font-size: 1em;
+    }
+}

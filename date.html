@@ -8,22 +8,22 @@
   <body>
     <h1>Current Date</h1>
     Derived: <span id="currentdate"></span>
-    <br>
+    <br />
     using toLocaleDateString: <span id="currentdate2"></span>
+    <script>
+
+      try{
+          let options = {
+              weekday: "long";
+              day: "numeric";
+              month: "long";
+              year: "numeric";
+
+          }
+          document.getElementById(
+              "currentdate2").textContent = newDate().toLocaleDateString("en-US",optoins);
+
+          }
+    </script>
   </body>
-  <script>
-
-    try{
-        let options = {
-            weekday: "long";
-            day: "numeric";
-            month: "long";
-            year: "numeric";
-
-        }
-        document.getElementById(
-            "currentdate2").textContent = newDate().toLocaleDateString("en-US",optoins);
-
-        }
-  </script>
 </html>
