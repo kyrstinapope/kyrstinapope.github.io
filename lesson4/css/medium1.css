@@ -1,0 +1,28 @@
+@media screen and (min-width: 32.5em) {
+    nav {
+        margin: 10px auto;
+        /* max-width: 6rem; */
+        height: auto;
+        font-size: 1em;
+        padding: 0%;
+    }
+    header {
+        height: auto;
+    }
+    nav li a {
+        font-size: 1em;
+    }
+    .headings h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    footer {
+        height: auto;
+        padding-top: 20px;
+    }
+}
