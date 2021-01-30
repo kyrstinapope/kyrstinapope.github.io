@@ -55,7 +55,7 @@ nav {
 
 .navigation a {
     display: block;
-        text-align: left;
+    text-align: left;
     text-decoration: none;
     color: #3A3335;
 }
@@ -123,9 +123,10 @@ p {
 section {
     border: 3px dotted #F0544F;
     margin-top: 10px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
     text-align: center;
+    padding-top: 10px;
 }
 
 footer {
@@ -151,8 +152,8 @@ footer {
     display: inline;
 }
 
-.social a {
-    font-size: 1em;
+.social {
+    font-size: .9em;
     color: white;
     text-align: center;
 }
