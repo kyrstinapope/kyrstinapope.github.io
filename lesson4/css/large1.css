@@ -4,12 +4,12 @@
     }
     nav {
         border-width: 5px;
-        font-size: 1.9em;
+        font-size: 1.5em;
     }
     .navigation a {
         text-align: center;
         white-space: nowrap;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     p {
         font-size: 1.5em;
