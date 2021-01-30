@@ -1,44 +1,28 @@
 @media screen and (min-width: 60em) {
     header {
-        /* width: 100%; */
         border-width: 5px;
     }
     nav {
         border-width: 5px;
-        /* max-width: 40rem; */
         font-size: 1.9em;
     }
-    /* nav ul {
-        display: flex;
-        flex: 1 1 auto;
-    } */
     .navigation a {
         text-align: center;
         white-space: nowrap;
         font-size: 2em;
-        /* max-width: 111px; */
     }
-    /* section {
-        margin-left: auto;
-        margin-right: auto;
-    } */
     p {
         font-size: 1.5em;
     }
     h2 {
         font-size: 2.0em;
     }
-    /* nav li a {
-        font-size: 1.5em;
-    } */
     footer {
         font-size: 1.8em;
         height: 64px;
         white-space: nowrap;
         text-align: center;
         padding-top: 20px;
-        /* margin-left:55px;
-        max-width: 90%; */
         border-width: 5px;
     }
     header img {
