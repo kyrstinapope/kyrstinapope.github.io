@@ -2,10 +2,11 @@
     header {
         /* width: 100%; */
         border-width: 5px;
+        
     }
     nav {
         border-width: 5px;
-        max-width: 40rem;
+        /* max-width: 40rem; */
     }
     /* nav ul {
         display: flex;
@@ -14,8 +15,8 @@
     .navigation a {
         text-align: center;
         white-space: nowrap;
-        font-size: 1.0em;
-        max-width: 111px;
+        font-size: 2em;
+        /* max-width: 111px; */
     }
     .navigation {
         display: flex;
@@ -36,9 +37,9 @@
     }
     section {
         border: 3px dashed #F0544F;
-        margin-top: 10px;
+        /* margin-top: 10px;
         margin-left: 500px;
-        margin-right: 500px;
+        margin-right: 500px; */
         text-align: center;
     }
     h2 {
@@ -53,7 +54,8 @@
         white-space: nowrap;
         text-align: center;
         padding-top: 20px;
-        width: 100%;
+        /* margin-left:55px;
+        max-width: 90%; */
         border-width: 5px;
     }
     header img {

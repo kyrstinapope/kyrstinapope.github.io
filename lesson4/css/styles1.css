@@ -29,7 +29,7 @@ nav {
     border-style: solid;
     border-width: 2px;
     margin: 5px auto;
-    max-width: 6rem;
+    /* max-width: 6rem; */
     /* height: 77px; */
     text-align: center;
     font-family: 'Architects Daughter', cursive;
@@ -55,8 +55,7 @@ nav {
 
 .navigation a {
     display: block;
-    padding: 0.75rem;
-    text-align: left;
+        text-align: left;
     text-decoration: none;
     color: #3A3335;
 }
