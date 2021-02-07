@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idaho Weather Watcher</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/lesson5/images/favicon.ico" />
+    <link rel="stylesheet" href="/lesson1/css/normalize.css" />
+    <link rel="stylesheet" href="/lesson5/css/styles.css" />
+    <link rel="stylesheet" href="/lesson5/css/medium.css" />
+    <link rel="stylesheet" href="/lesson5/css/large.css" />
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img src="/lesson3/images/iconfinder_sun_4677537.png" alt=" logo" />
+      </picture>
+      <div class="headings">
+        <h1>Idaho Weather Watcher</h1>
+        <div class="m">Your go to Weather Site</div>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onClick="toggleMenu()">☰ Menu</a></li>
+        <li><a href="/lesson5/preston-5.html">Home</a></li>
+        <li><a href="/lesson5/preston-5.html">Preston</a></li>
+        <li><a href="/lesson5/preston-5.html">Soda Springs</a></li>
+        <li><a href="/lesson5/preston-5.html">Fish Haven</a></li>
+        <li><a href="/lesson5/preston-5.html">Storm Center</a></li>
+        <li><a href="/lesson5/preston-5.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Preston, ID</h2>
+      <section class="hero">
+        <img id="hero-image" src="/lesson5/images/snow.jpg" alt="snow" />
+        <div class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: 45&deg;F</p>
+          <p>High: 50&deg;F</p>
+          <p>Wind Chill: Yes</p>
+          <p>Humidity: Yes</p>
+          <p>Wind Speed: Yes</p>
+        </div>
+      </section>
+
+      <section class="forecast">
+        <h3>5 Day Forecast</h3>
+        <table class="five">
+          <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </table>
+      </section>
+
+      <!-- 
+      <section>
+        <h2>Article</h2>
+        <p>Example 3</p>
+      </section>
+      <section>
+        <h2>Contact Information</h2>
+        <p>Example 4</p>
+      </section> -->
+    </main>
+    <footer>
+      <div class="social">
+        &copy; 2021 - Kyrstina Pope | Idaho |<a
+          target="_blank"
+          href="../index.html"
+          >Home</a
+        >|
+        <a target="_blank" href="https://www.byui.edu/online"
+          >BYUI Online Learning</a
+        >
+        <br />
+        Current Date:
+        <span id="currentDate"></span>
+      </div>
+    </footer>
+    <script src="js/toggle.js"></script>
+    <script src="js/date.js"></script>
+  </body>
+</html>
