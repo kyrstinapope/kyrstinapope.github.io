@@ -6,3 +6,4 @@ const options = {
     year: "numeric"
 };
 document.getElementById("currentDate").textContent = todaysDate.toLocaleDateString('en-us', options);
+
