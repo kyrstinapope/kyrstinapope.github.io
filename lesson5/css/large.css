@@ -9,7 +9,7 @@
     .navigation a {
         text-align: center;
         white-space: nowrap;
-        font-size: 2.9em;
+        font-size: 2.5em;
     }
     .summary {
         padding: 1.5rem;
@@ -25,6 +25,9 @@
         font-size: 2.0em;
     }
 
+    #map-image{
+        padding: 0% 10%;
+    }
     footer {
         font-size: 1.8em;
         height: 64px;

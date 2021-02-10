@@ -46,18 +46,19 @@
         font-family: 'Architects Daughter', cursive;
     }
     .forecast_table th {
-        text-align: center;
+        justify-items: center;
         padding: 10px 10px 10px 10px;
         border: 3px solid rgba(0, 0, 0, 0.3);
     }
     .forecast .fas, .far {
-        text-align: center;
+        justify-items: center;
         font-size: 60px;
-        padding: 10px;
+        padding: 10px 15px;
         color: #F0544F;
     }
     .forecast_header {
         text-align: center;
+        color: #F0544F;
     }
     /* main {
         margin-left: 70px;
@@ -65,9 +66,25 @@
     } */
     h2 {
         font-size: 1.5em;
+        
     }
     p {
         font-size: 1em;
+    }
+    .articleText{
+        height: auto;
+    }
+    .info{
+        font-size: 17px;
+    }
+    #map-image{
+        display: block;
+        float: left;
+        padding: 0% 2%;
+        
+    }
+    .contact{
+       height: 306px;
     }
     footer {
         /* height: auto; */

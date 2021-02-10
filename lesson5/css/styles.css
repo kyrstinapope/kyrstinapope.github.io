@@ -168,7 +168,7 @@ nav li a:hover:not(.active) {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #3A3335;
+    color: #F0544F;
     font-size: 1.2em;
     text-align: center;
 }
@@ -185,27 +185,38 @@ p {
 }
 
 .article {
-    border-color: #3A3335;
+    border-color: #8797B2;
     border-style: solid;
     border-width: 2px;
 }
 
 .articleText {
     font-size: 12px;
-       /* white-space: nowrap; */
+    /* white-space: nowrap; */
     height: 475px;
     /* overflow: hidden; */
     text-overflow: ellipsis;
     padding: 10px;
 }
 
-
 .contact {
-    border-color: #3A3335;
-    border-style: solid;
-    border-width: 2px;
+    border: 5px dashed #66CED6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: rgb(102, 197, 102); */
 }
-
+#map-image {
+    display: none;
+}
+.info {
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.socialMedia{
+    text-align: center;
+    
+}
 footer {
     background-color: #66CED6;
     border-color: #8797B2;
