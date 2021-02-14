@@ -1,48 +1,39 @@
 @media screen and (min-width: 32.5em) {
-    nav {
-        margin: 10px auto;
-        height: auto;
-        font-size: 1em;
-        padding: 0%;
-    }
     header {
         height: auto;
-    }
-    nav li a {
-        font-size: 1.5em;
     }
     .headings h1 {
         font-size: 2em;
     }
-    .navigation {
-        display: flex;
+    nav {
+        height: auto;
+        font-size: .9em;
+        overflow: auto;
     }
     .navigation li {
-        display: block;
-        border-right: 6px solid #D6F6DD;
+        display: inline-block;
     }
     .navigation a {
         text-align: center;
-        white-space: nowrap;
-        font-size: 1em;
+        float: left;
+        padding: 12px;
+        border-right: 3px solid rgb(214, 246, 221);
     }
-    #hero-image {}
-    .hero {}
-    .summary {
-        padding: 1.0rem;
-        top: 25px;
-        right: 50px;
-    }
-    li:last-child {
+    .navigation a:last-child {
         border-right: none;
     }
     .navigation li:first-child {
         display: none;
     }
+    .summary {
+        padding: 1.0rem;
+        top: 25px;
+        right: 50px;
+    }
     .forecast {
         display: table;
         margin: 10px auto;
-        border: 5px dashed #66CED6;
+        border: 5px dashed rgb(102, 206, 214);
         font-family: 'Architects Daughter', cursive;
     }
     .forecast_table th {
@@ -54,11 +45,11 @@
         justify-items: center;
         font-size: 60px;
         padding: 10px 15px;
-        color: #F0544F;
+        color: rgb(0, 39, 97);
     }
     .forecast_header {
         text-align: center;
-        color: #F0544F;
+        color: rgb(0, 39, 97));
     }
     /* main {
         margin-left: 70px;
@@ -66,28 +57,25 @@
     } */
     h2 {
         font-size: 1.5em;
-        
     }
     p {
         font-size: 1em;
     }
-    .articleText{
+    .articleText {
         height: auto;
     }
-    .info{
+    .info {
         font-size: 17px;
     }
-    #map-image{
+    #map-image {
         display: block;
         float: left;
         padding: 0% 2%;
-        
     }
-    .contact{
-       height: 306px;
+    .contact {
+        height: 306px;
     }
     footer {
-        /* height: auto; */
         padding-top: 20px;
         margin-left: auto;
         margin-right: auto;

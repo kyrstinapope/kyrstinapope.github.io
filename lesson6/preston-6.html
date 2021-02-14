@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Idaho Weather Watcher</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/b24250521b.js"
       crossorigin="anonymous"
     ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idaho Weather Watcher</title>
+    <meta name="description" content="Preston, Idaho Weather" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="/lesson5/images/favicon.ico" />
     <link rel="stylesheet" href="/lesson1/css/normalize.css" />
     <link rel="stylesheet" href="/lesson6/css/styles.css" />
@@ -36,33 +37,34 @@
       </div>
     </header>
 
-    <nav>
+    <nav class="topNav">
       <ul class="navigation">
         <li><a href="#" onClick="toggleMenu()">☰ Menu</a></li>
-        <li><a href="/lesson6/preston-6.html">Home</a></li>
-        <li><a class="active" href="/lesson6/preston-6.html">Preston</a></li>
-        <li><a href="/lesson6/preston-6.html">Soda Springs</a></li>
-        <li><a href="/lesson6/preston-6.html">Fish Haven</a></li>
-        <li><a href="/lesson6/preston-6.html">Storm Center</a></li>
-        <li><a href="/lesson6/preston-6.html">Gallery</a></li>
+        <li><a href="/lesson6/preston-6.html">Home </a></li>
+        <li><a class="active" href="/lesson6/preston-6.html">Preston </a></li>
+        <li><a href="/lesson6/preston-6.html">Soda Springs </a></li>
+        <li><a href="/lesson6/preston-6.html">Fish Haven </a></li>
+        <li><a href="/lesson6/preston-6.html">Storm Center </a></li>
+        <li><a href="/lesson6/preston-6.html">Gallery </a></li>
       </ul>
     </nav>
 
     <main>
       <h2>Preston, ID</h2>
       <section class="hero">
+      <picture id="hero-image">
+        <source media="(max-width: 32.5em)" srcset="/lesson6/images/wdd230_image_franklinSmall.jpg">
+        <source media="(max-width: 60em)" srcset="/lesson6/images/wdd230_image_franklinMedium.jpg">
+        <img src="/lesson6/images/wdd230_image_franklinLarge.jpg" alt="hero image">
+    </picture>
 
-        <picture id="hero-image">
-          <source media="(max-width: 37.5em)" srcset="/lesson6/images/wdd230_image_franklinSmall.jpg">
-          <source media="(max-width: 60em)" srcset="/lesson6/images/wdd230_image_franklinMedium.jpg">
-          <img src="/lesson6/images/wdd230_image_franklinLarge.jpg" alt="hero image">
-      </picture>
-      
+    
         <div class="summary">
           <h3>Weather Summary</h3>
-          <p>Currently: 45&deg;F</p>
+          <p id="currentTemp">Currently: 45&deg;F</p>
           <p>High: 50&deg;F</p>
-          <p>Wind Chill: Yes</p>
+          <p>Wind Chill: <span id="windchill"></span>° F</p>
+          <script src="js/windchill.js"></script>
           <p>Humidity: Yes</p>
           <p>Wind Speed: Yes</p>
         </div>
@@ -80,18 +82,11 @@
               <th>Friday</th>
             </tr>
             <tr>
-              <td><i class="fas fa-bolt"></i></td>
-              <td><i class="fas fa-sun"></i></td>
-              <td><i class="far fa-snowflake"></i></td>
-              <td><i class="fas fa-cloud-showers-heavy"></i></td>
-              <td><i class="fas fa-cloud-sun"></i></td>
-            </tr>
-            <tr>
-              <td>50&deg;F</td>
-              <td>50&deg;F</td>
-              <td>50&deg;F</td>
-              <td>50&deg;F</td>
-              <td>50&deg;F</td>
+              <td><i class="fas fa-bolt"></i><br />50&deg;F</td>
+              <td><i class="fas fa-sun"></i><br />50&deg;F</td>
+              <td><i class="far fa-snowflake"></i><br />50&deg;F</td>
+              <td><i class="fas fa-cloud-showers-heavy"></i><br />50&deg;F</td>
+              <td><i class="fas fa-cloud-sun"></i><br />50&deg;F</td>
             </tr>
           </tbody>
         </table>
@@ -130,8 +125,8 @@
       </section>
       <section class="contact">
         <h2>Contact Us:</h2>
-                 <img id="map-image" src="/lesson5/images/map.png" alt="map" />
-                 <p class="info">
+        <img id="map-image" src="/lesson6/images/map.png" alt="map" />
+        <p class="info">
           <i class="fas fa-map-pin"></i> 1234 Idaho Drive <br />
           Preston, ID 83263 <br /><br /><i class="fas fa-phone"></i>
           1-208-123-4567 <br /><i class="fas fa-envelope-open-text"></i>
@@ -141,13 +136,13 @@
         </p>
         <div class="socialMedia">
           <a target="_blank" href="https://www.instagram.com"
-            ><img src="/lesson5/images/instagram.jpg" alt=""
+            ><img src="/lesson6/images/instagram.jpg" alt=""
           /></a>
           <a target="_blank" href="https://www.facebook.com"
-            ><img src="/lesson5/images/facebook.jpg" alt=""
+            ><img src="/lesson6/images/facebook.jpg" alt=""
           /></a>
           <a target="_blank" href="https://www.youtube.com"
-            ><img src="/lesson5/images/youtube.jpg" alt=""
+            ><img src="/lesson6/images/youtube.jpg" alt=""
           /></a>
         </div>
       </section>
@@ -169,8 +164,14 @@
     </footer>
     <script src="js/toggle.js"></script>
     <script src="js/date.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">  </script>
-   <script>WebFont.load({ google: { families: [ 'Montserrat', 'Yusei Magic'; ] } });</script> 
-
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Architects Daughter", "Montserrat"],
+        },
+      });
+    </script>
   </body>
 </html>

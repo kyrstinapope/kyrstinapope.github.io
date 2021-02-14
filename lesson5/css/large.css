@@ -4,12 +4,10 @@
     }
     nav {
         border-width: 5px;
-        
     }
     .navigation a {
-        text-align: center;
         white-space: nowrap;
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     .summary {
         padding: 1.5rem;
@@ -20,12 +18,10 @@
     h2 {
         font-size: 2.0em;
     }
-
     .forecast {
         font-size: 2.0em;
     }
-
-    #map-image{
+    #map-image {
         padding: 0% 10%;
     }
     footer {
