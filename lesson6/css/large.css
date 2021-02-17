@@ -9,9 +9,11 @@
         white-space: nowrap;
         font-size: 1.5em;
     }
-    .hero {
+    /* .hero {
         margin-left: 50px;
-    }
+    } */
+
+    
     .summary {
         padding: 1.5rem;
         right: -74px;

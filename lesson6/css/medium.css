@@ -25,9 +25,9 @@
     .navigation li:first-child {
         display: none;
     }
-    .hero {
+    /* .hero {
         margin-left: 20px;
-    }
+    } */
     .summary {
         padding: 0rem 1.0rem;
         top: 11px;
@@ -43,6 +43,7 @@
         margin: 10px auto;
         border: 5px dashed rgb(102, 206, 214);
         font-family: 'Architects Daughter', cursive;
+        text-align: center;
     }
     .forecast_table th {
         justify-items: center;
