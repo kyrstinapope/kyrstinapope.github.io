@@ -7,7 +7,7 @@ h1 {
     font-family: 'Architects Daughter', cursive;
     color: rgb(0, 39, 97);
     font-size: 40px;
-    ;
+    
 }
 
 .img-grid {
@@ -20,6 +20,8 @@ h1 {
     grid-gap: 10px;
     justify-content: center;
     align-content: center;
+    width:300px;
+    margin-left: 380px;
 }
 
 img[data-src] {

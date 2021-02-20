@@ -21,7 +21,7 @@
     #end {
         border-right: none;
     }
-       .summary {
+    .summary {
         padding: 0rem 1.0rem;
         top: 11px;
         right: 50px;
@@ -53,7 +53,15 @@
         text-align: center;
         color: rgb(0, 39, 97);
     }
- 
+    .img-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-item{
+        width: 300px;
+    }
+    img {
+        max-width: 100%;
+    }
     h2 {
         font-size: 1.5em;
     }
