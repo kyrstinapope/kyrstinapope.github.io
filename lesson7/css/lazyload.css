@@ -12,7 +12,7 @@ h1 {
 
 .img-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 350px);
+    grid-template-columns: 1fr;
     /* background-color: #2196F3; */
     /* padding: 10px; */
     overflow: auto;
