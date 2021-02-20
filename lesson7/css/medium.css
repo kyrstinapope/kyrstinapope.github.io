@@ -1,0 +1,83 @@
+@media screen and (min-width: 32.5em) {
+    header {
+        height: auto;
+    }
+    .headings h1 {
+        font-size: 2em;
+    }
+    .navigation a {
+        border-right: 3px solid rgb(214, 246, 221);
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: grid;
+    }
+    #end {
+        border-right: none;
+    }
+       .summary {
+        padding: 0rem 1.0rem;
+        top: 11px;
+        right: 50px;
+        position: absolute;
+        background: radial-gradient(rgb(238, 238, 238), rgb(69, 103, 170));
+        border: 2px solid rgb(42, 76, 145);
+        box-shadow: 0 0 30px rgb(17, 17, 17);
+        opacity: .8;
+    }
+    .forecast {
+        display: table;
+        margin: 10px auto;
+        border: 5px dashed rgb(102, 206, 214);
+        font-family: 'Architects Daughter', cursive;
+        text-align: center;
+    }
+    .forecast_table th {
+        justify-items: center;
+        padding: 10px 10px 10px 10px;
+        border: 3px solid rgba(0, 0, 0, 0.3);
+    }
+    .forecast .fas, .far {
+        justify-items: center;
+        font-size: 60px;
+        padding: 10px 15px;
+        color: rgb(0, 39, 97);
+    }
+    .forecast_header {
+        text-align: center;
+        color: rgb(0, 39, 97);
+    }
+ 
+    h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .articleText {
+        height: auto;
+    }
+    .info {
+        font-size: 17px;
+    }
+    #map-image {
+        display: block;
+        float: left;
+        padding: 0% 2%;
+    }
+    .contact {
+        height: 306px;
+    }
+    footer {
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+    }
+}

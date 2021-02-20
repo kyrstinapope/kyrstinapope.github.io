@@ -1,0 +1,228 @@
+body {
+    background-color: rgb(214, 246, 221);
+    margin: 10px;
+}
+
+#eventBanner {
+    background-color: rgb(0, 39, 97);
+    border-color: rgb(135, 151, 178);
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px auto;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    padding: 5px 0;
+    display: none;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(129, 186, 255);
+    border-color: rgb(135, 151, 178);
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Architects Daughter', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1em;
+    margin: 0 0 0 17px;
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(0, 39, 97);
+}
+
+.m {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: forestgreen;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+nav {
+    background-color: rgb(129, 186, 255);
+    border-color: rgb(135, 151, 178);
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px auto;
+    align-items: center;
+    font-family: 'Architects Daughter', cursive;
+    justify-content: center;
+    margin: 5px;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(58, 51, 53);
+}
+
+nav li a {
+    color: rgb(58, 51, 53);
+    text-decoration: none;
+    font-size: .9em;
+}
+
+.navigation a:hover {
+    background-color: rgb(0, 39, 97);
+    color: rgb(129, 186, 255);
+}
+
+nav li a.active {
+    background-color: rgb(13, 55, 119);
+    color: rgb(129, 186, 255);
+}
+
+nav li a:hover:not(.active) {
+    background-color: rgb(0, 39, 97);
+    color: rgb(129, 186, 255);
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    overflow: auto;
+    resize: horizontal;
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+img[data-src] {
+    filter: blur(5px);
+}
+
+img {
+    filter: blur(0px);
+}
+
+.responsive li {
+    display: block;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+}
+
+#hero-image img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.summary {
+    border: 5px dashed rgb(129, 186, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.forecast {
+    display: none;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 39, 97);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5em;
+    color: rgb(58, 51, 53);
+}
+
+.article {
+    border-color: rgb(135, 151, 178);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.articleText {
+    font-size: 12px;
+    height: 475px;
+    text-overflow: ellipsis;
+    padding: 10px;
+}
+
+.contact {
+    border: 5px dashed rgb(129, 186, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#map-image {
+    display: none;
+}
+
+.info {
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.socialMedia {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(129, 186, 255);
+    border-color: rgb(135, 151, 178);
+    border-style: solid;
+    border-width: 2px;
+    font-family: 'Architects Daughter', cursive;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.social a:hover {
+    background-color: rgb(0, 39, 97);
+    color: rgb(129, 186, 255);
+    display: inline;
+}
+
+.social {
+    font-size: .9em;
+    color: rgb(0, 39, 97);
+    text-align: center;
+}
