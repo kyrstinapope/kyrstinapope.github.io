@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/lesson1/css/normalize.css" />
+    <link rel="stylesheet" href="/lesson1/css/normalize.css" />
+    <link rel="stylesheet" href="/lesson7/css/styles.css" />
+    <link rel="stylesheet" href="/lesson7/css/medium.css" />
+    <link rel="stylesheet" href="/lesson7/css/large.css" />
+    <link rel="stylesheet" href="/lesson8/css/tablebuild.css" />
+    <title>Table</title>
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img src="/lesson7/images/iconfinder_sun_4677537.png" alt=" logo" />
+      </picture>
+      <div class="headings">
+        <h1>Idaho Weather Watcher</h1>
+        <div class="m">Your go to Weather Site</div>
+      </div>
+    </header>
+    
+    <table>
+      <caption>
+        ACME Wildwest
+      </caption>
+      <thead>
+        <tr>
+          <th>Period</th>
+          <th>Sales</th>
+          <th>Sales Goal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>August</td>
+          <td>$3,590</td>
+          <td>$4,000</td>
+        </tr>
+        <tr>
+          <td>September</td>
+          <td>$4,420</td>
+          <td>$5,000</td>
+        </tr>
+        <tr>
+          <td>October</td>
+          <td>$4,870</td>
+          <td>$5,000</td>
+        </tr>
+        <tr>
+          <td>November</td>
+          <td>$8,610</td>
+          <td id="novGoal">$7,500</td>
+        </tr>
+        <tr>
+          <td id="blackFriday">Black Friday</td>
+          <td id="fridaySales" colspan="2">$3,200</td>
+        </tr>
+        <tr>
+          <td>December</td>
+          <td>$6,820</td>
+          <td>$7,500</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td id="foot" colspan="3">Compiled 12.20.2020 by bRauls</td>
+        </tr>
+      </tfoot>
+    </table>
+    <footer>
+      <div class="social">
+        &copy; 2021 - Kyrstina Pope | Idaho |<a
+          target="_blank"
+          href="../index.html"
+          >Home</a
+        >|
+        <a target="_blank" href="https://www.byui.edu/online"
+          >BYUI Online Learning</a
+        >
+        <br />
+        Current Date:
+        <span id="currentDate"></span>
+      </div>
+    </footer>
+    <script src="js/toggle.js"></script>
+    <script src="js/date.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Architects Daughter", "Montserrat"],
+        },
+      });
+    </script>
+  </body>
+</html>
