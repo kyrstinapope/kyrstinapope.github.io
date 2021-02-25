@@ -2,6 +2,7 @@ table {
     margin-left: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #e7f0ed;
 }
 
 table, th, td {
@@ -18,10 +19,6 @@ table, caption {
 
 tr:nth-child(even) {
     background-color: #e7ffed;
-}
-
-tr:nth-child(odd) {
-    background-color: #e7f0ed;
 }
 
 #foot {
