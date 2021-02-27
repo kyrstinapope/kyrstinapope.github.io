@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/b24250521b.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idaho Weather Watcher</title>
+    <meta name="description" content="Preston, Idaho Weather" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/lesson7/images/favicon.ico" />
+    <link rel="stylesheet" href="/lesson1/css/normalize.css" />
+    <link rel="stylesheet" href="/lesson8/css/styles.css" />
+    <link rel="stylesheet" href="/lesson8/css/medium.css" />
+    <link rel="stylesheet" href="/lesson8/css/large.css" />
+  </head>
+  <body>
+    <div id="eventBanner">
+      <p>
+        Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion.
+      </p>
+      <script src="/lesson7/js/event.js"></script>
+    </div>
+    <header>
+      <picture>
+        <img src="/lesson7/images/iconfinder_sun_4677537.png" alt=" logo" />
+      </picture>
+      <div class="headings">
+        <h1>Idaho Weather Watcher</h1>
+        <div class="m">Your go to Weather Site</div>
+      </div>
+    </header>
+    <nav class="topNav">
+      <ul class="navigation">
+        <li><a href="#" onClick="toggleMenu()">☰ Menu</a></li>
+        <li><a href="/lesson6/preston-6.html">Home </a></li>
+        <li><a href="/lesson7/preston-7.html">Preston </a></li>
+        <li><a href="/lesson7/preston-7.html">Soda Springs </a></li>
+        <li><a href="/lesson7/preston-7.html">Fish Haven </a></li>
+        <li>
+          <a class="active" href="/lesson7/preston-7.html">Storm Center </a>
+        </li>
+        <li><a id="end" href="/lesson7/gallery-7.html">Gallery </a></li>
+      </ul>
+    </nav>
+
+    <div id="feedback"></div>
+    <form method="get" action="/lesson8/thanks.html">
+      <fieldset>
+        <legend>Your Information</legend>
+
+        <label class="top">
+          First and Last Name*
+          <input type="text" name="fname" pattern="[A-Za-z\s]{5,}" required
+        /></label>
+        <label class="top">
+          Phone Number*
+          <input type="tel" name="phone" placeholder="1235551234" required
+        /></label>
+        <label class="top">
+          Email
+          <input type="email" name="email" placeholder="someone@gmail.com"
+        /></label>
+        <label class="top">
+          Zip Code*
+          <input type="number" name="zip" placeholder="12345" required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Storm Information</legend>
+        <div>Audience</div>
+        <label class="top"
+          >Storm Date<input type="date" name="stormDate"
+        /></label>
+
+        <label class="top"
+          >Storm Type <input name="stormType" list="type"
+        /></label>
+
+        <datalist id="type">
+          <option value="Flash Flood"></option>
+          <option value="Hail"></option>
+          <option value="Hurricane"></option>
+          <option value="Thunderstorm"></option>
+          <option value="Tornado"></option>
+        </datalist>
+
+        <label class="flexly" for="rating"
+          >Storm Severity:&nbsp;&nbsp;&nbsp;
+          <input
+            type="range"
+            id="rating"
+            name="level"
+            value="5"
+            min="1"
+            max="10"
+            step="1"
+            list="tickmarks"
+            oninput="adjustRating(this.value)"
+            onchange="adjustRating(this.value)"
+          />
+          <span id="ratingvalue">5</span>
+        </label>
+        <datalist id="tickmarks">
+          <option value="0"></option>
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5"></option>
+          <option value="6"></option>
+          <option value="7"></option>
+          <option value="8"></option>
+          <option value="9"></option>
+          <option value="10"></option>
+        </datalist>
+        <label class="top"
+          >Storm Region
+          <select name="subject">
+            <option value="">Select Region.... &#9662;</option>
+            <option value="region">Preston</option>
+            <option value="region">Soda Springs</option>
+            <option value="region">Fish Haven</option>
+          </select>
+        </label>
+
+        <div>Are You In Danger?</div>
+        <label class="middle"
+          ><input type="radio" name="danger" value="yes" /> Yes</label
+        >
+        <label class="middle">
+          <input type="radio" name="danger" value="maybe" />
+          Maybe</label
+        >
+        <label class="middle">
+          <input type="radio" name="danger" value="no" />
+          No</label
+        >
+        <label class="top">Additional Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"> </textarea>
+      </fieldset>
+
+      <input type="submit" value="Report Storm" class="sumbitBtn" />
+    </form>
+    <footer>
+      <div class="social">
+        &copy; 2021 - Kyrstina Pope | Idaho |<a
+          target="_blank"
+          href="../index.html"
+          >Home</a
+        >|
+        <a target="_blank" href="https://www.byui.edu/online"
+          >BYUI Online Learning</a
+        >
+        <br />
+        Current Date:
+        <span id="currentDate"></span>
+      </div>
+    </footer>
+    <script src="js/toggle.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/adjustrating.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Architects Daughter", "Montserrat"],
+        },
+      });
+    </script>
+  </body>
+</html>
