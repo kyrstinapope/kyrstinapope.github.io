@@ -29,6 +29,7 @@ header {
     margin: 5px;
 }
 
+
 header img {
     width: 80px;
     height: auto;
@@ -339,8 +340,8 @@ footer {
     align-items: center;
     justify-content: center;
     margin: 5px;
-    position: absolute;
 }
+
 
 .social a:hover {
     background-color: rgb(0, 39, 97);

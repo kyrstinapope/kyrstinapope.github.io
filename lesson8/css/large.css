@@ -39,6 +39,13 @@
     form label.middle {
         padding: .4rem 0;
     }
+
+    form fieldset {
+        margin: 2rem 250px;
+    }
+    form input.sumbitBtn {
+        margin: -12px 0 2rem 40%;
+    }
     #map-image {
         padding: 0% 10%;
     }
