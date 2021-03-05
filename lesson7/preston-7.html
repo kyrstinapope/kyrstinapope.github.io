@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/lesson7/css/medium.css" />
     <link rel="stylesheet" href="/lesson7/css/large.css" />
   </head>
-  <body>
+  <body onload="windChill();">
     <div id="eventBanner">
       <p>
         Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
@@ -71,8 +71,8 @@
           <h3>Weather Summary</h3>
           <p id="currentTemp">Currently: 45&deg;F</p>
           <p>High: 50&deg;F</p>
-          <p>Wind Chill: <span id="windchill"></span>° F</p>
-          <script src="js/windchill.js"></script>
+          <p>Wind Chill: <span id="windChill"></span>° F</p>
+
           <p>Humidity: Yes</p>
           <p>Wind Speed: Yes</p>
         </div>
@@ -160,7 +160,8 @@
         &copy; 2021 - Kyrstina Pope | Idaho |<a
           target="_blank"
           href="../index.html"
-          >Home</a
+        >
+          Home </a
         >|
         <a target="_blank" href="https://www.byui.edu/online"
           >BYUI Online Learning</a
@@ -172,7 +173,7 @@
     </footer>
     <script src="js/toggle.js"></script>
     <script src="js/date.js"></script>
-
+    <script src="js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({
