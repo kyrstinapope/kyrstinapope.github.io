@@ -4,18 +4,25 @@ body {
 }
 
 #eventBanner {
-    background-color: rgb(0, 39, 97);
-    border-color: rgb(135, 151, 178);
-    border-style: solid;
-    border-width: 2px;
+    background-color: rgb(214, 246, 221);
+    
     margin: 5px auto;
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
-    padding: 5px 0;
+    
+   
     display: none;
     justify-content: center;
+  
 }
-
+#event{
+    color: rgb(0, 39, 97);
+    font-size: 24px;
+    font-family: 'Architects Daughter', cursive;
+    border-color: rgb(0, 39, 97);
+    border-style: solid;
+    border-width: 2px;
+    padding: 6px 0px;
+ }
 header {
     background-color: rgb(129, 186, 255);
     border-color: rgb(135, 151, 178);

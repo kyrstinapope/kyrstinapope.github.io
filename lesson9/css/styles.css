@@ -5,16 +5,21 @@ body {
 }
 
 #eventBanner {
-    background-color: rgb(0, 39, 97);
-    border-color: rgb(135, 151, 178);
-    border-style: solid;
-    border-width: 2px;
+    background-color: rgb(214, 246, 221);
     margin: 5px auto;
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
-    padding: 5px 0;
     display: none;
     justify-content: center;
+}
+
+#event {
+    color: rgb(0, 39, 97);
+    font-size: 24px;
+    font-family: 'Architects Daughter', cursive;
+    border-color: rgb(0, 39, 97);
+    border-style: solid;
+    border-width: 2px;
+    padding: 6px 0px;
 }
 
 header {
@@ -62,7 +67,6 @@ h1 {
     color: rgb(0, 39, 97);
     margin-left: 40px;
     font-size: .9rem;
-    
 }
 
 nav {
@@ -70,7 +74,6 @@ nav {
     border-color: rgb(135, 151, 178);
     border-style: solid;
     border-width: 2px;
- 
     align-items: center;
     font-family: 'Architects Daughter', cursive;
     justify-content: center;
@@ -309,12 +312,10 @@ form label.top input:required:valid {
 #ratingvalue {
     margin: 0 15px;
     color: rgb(0, 39, 97);
-
 }
 
 #tickmarks {
     color: rgb(0, 39, 97);
-    
 }
 
 .comments {
@@ -327,29 +328,42 @@ form label.top input:required:valid {
 }
 
 /*--------------alternating images----------------------*/
-.alternateArticle{max-width: 600px;
-margin: .5rem auto;
-  border:1px solid #bbb;
-background-color: #eee;
+
+.alternateArticle {
+    max-width: 600px;
+    margin: .5rem auto;
+    border: 1px solid #bbb;
+    background-color: #eee;
 }
 
 article {
     display: grid;
-      grid-template-columns: 1fr 1fr;
-  }
-  
-  article:nth-child(odd) img {
-      grid-column: 2;
-  }
-  
-  article:nth-child(odd) .data {
-      grid-column: 1;
-      grid-row: 1;
-  }
-  
-  img {width: 100%; height: auto;padding:0;}
-  .data {background-color:#000; color:#fff;}
-  p {padding: .75rem;}
+    grid-template-columns: 1fr 1fr;
+}
+
+article:nth-child(odd) img {
+    grid-column: 2;
+}
+
+article:nth-child(odd) .data {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.data {
+    background-color: #000;
+    color: #fff;
+}
+
+p {
+    padding: .75rem;
+}
 
 /*--------------Footer----------------------*/
 
