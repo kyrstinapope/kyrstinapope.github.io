@@ -9,4 +9,4 @@ function windChill() {
         chill = Math.round(chill * 1) / 1;
     }
     document.getElementById('windChill').innerHTML = chill;
-}
+}       

@@ -3,15 +3,26 @@ const apiURL =
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
-    // let ptemp=(jsObject.main.temp - 273.15) * (9/5) + 32;
-    // document.getElementById("current-temp").textContent = ptemp.toFixed(2);
-    document.getElementById("current-temp").textContent = jsObject.main.temp;
+    console.log(jsObject.main);
+    console.log(jsObject.main.temp);
+    console.log(jsObject.main.feels_like);
+    console.log(jsObject.main.temp_max);
+    console.log(jsObject.main.pressure);
+    console.log(jsObject.main.humidity);
+    console.log(jsObject.wind.speed);
+    let card = document.createElement("section");
+    let prestonTemp = document.createElement("p");
+    let prestonHigh = document.createElement("p");
+    let prestonHumid = document.createElement("p");
+    let prestonWind = document.createElement("p");
+    prestonTemp.textContent = `Current Temp: ${jsObject.main.temp}`;
+    prestonHigh.textContent = `High: ${jsObject.main.temp_max}`;
+    prestonHumid.textContent = `Humidity: ${jsObject.main.humidity}`;
+    prestonWind.textContent = `Wind Speed: ${jsObject.wind.speed}`;
 
-    const imagesrc =
-      "https://openweathermap.org/img/w/" + jsObject.weather[0].icon + ".png"; // note the concatenation
-    const desc = jsObject.weather[0].description; // note how we reference the weather array
-    document.getElementById("imagesrc").textContent = imagesrc; // informational specification only
-    document.getElementById("icon").setAttribute("src", imagesrc); // focus on the setAttribute() method
-    document.getElementById("icon").setAttribute("alt", desc);
+    card.appendChild(prestonTemp);
+    card.appendChild(prestonHigh);
+    card.appendChild(prestonHumid);
+    card.appendChild(prestonWind);
+    document.querySelector(".cards").appendChild(card);
   });
