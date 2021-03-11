@@ -79,7 +79,7 @@ footer {
 
 .links-grid {
     display: inline-grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr;
     padding: 10px;
     color: rgb(48, 47, 61)
 }
