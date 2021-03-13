@@ -9,6 +9,8 @@ body {
     text-align: center;
     display: none;
     justify-content: center;
+    max-width: 1000px;
+    
 }
 
 #event {
@@ -19,6 +21,7 @@ body {
     border-style: solid;
     border-width: 2px;
     padding: 6px 0px;
+    
 }
 
 header {

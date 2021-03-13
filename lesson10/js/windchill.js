@@ -1,7 +1,5 @@
-function windChill() {
-    var temp = 25
-    var windSpeed = 5
-
+function windChill(temp,windSpeed) {
+    
     if (temp > 50 && windSpeed < 3) {
         windChill = "N/A";
     } else {

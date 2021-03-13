@@ -1,22 +1,28 @@
 body {
     background-color: rgb(214, 246, 221);
     margin: 10px;
-    padding-bottom: 140px;
 }
 
 #eventBanner {
-    background-color: rgb(0, 39, 97);
-    border-color: rgb(135, 151, 178);
-    border-style: solid;
-    border-width: 2px;
+    background-color: rgb(214, 246, 221);
     margin: 5px auto;
     text-align: center;
-    font-family: 'Architects Daughter', cursive;
-    padding: 5px 0;
     display: none;
     justify-content: center;
+    max-width: 1000px;
+    
 }
 
+#event {
+    color: rgb(0, 39, 97);
+    font-size: 24px;
+    font-family: 'Architects Daughter', cursive;
+    border-color: rgb(0, 39, 97);
+    border-style: solid;
+    border-width: 2px;
+    padding: 6px 0px;
+    
+}
 header {
     background-color: rgb(129, 186, 255);
     border-color: rgb(135, 151, 178);
@@ -28,7 +34,6 @@ header {
     justify-content: center;
     margin: 5px;
 }
-
 
 header img {
     width: 80px;
@@ -47,23 +52,13 @@ header img {
     color: rgb(0, 39, 97);
 }
 
-h1 {
-    font-size: 1em;
-    margin: 0 0 0 17px;
-    font-family: 'Architects Daughter', cursive;
-    color: rgb(0, 39, 97);
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .m {
     font-style: italic;
     letter-spacing: 1pt;
     color: rgb(0, 39, 97);
     margin-left: 40px;
     font-size: .9rem;
-    
+    text-align: right;
 }
 
 nav {
@@ -71,12 +66,11 @@ nav {
     border-color: rgb(135, 151, 178);
     border-style: solid;
     border-width: 2px;
- 
+    margin: 5px auto;
     align-items: center;
     font-family: 'Architects Daughter', cursive;
     justify-content: center;
     margin: 5px;
-    padding-right: 35px;
 }
 
 .navigation {
@@ -161,12 +155,18 @@ img {
     width: 100%;
     max-width: 960px;
     height: auto;
+    margin: 10px auto;
 }
 
 #hero-image img {
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    max-width: 960px;
     height: auto;
+    margin: 10px auto;
+    border-color: rgb(0, 39, 97);
+    border-style: solid;
+    border-width: 2px;
 }
 
 .summary {
@@ -176,6 +176,8 @@ img {
     text-align: center;
     justify-content: center;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(58, 51, 53);
 }
 
 .forecast {
@@ -190,17 +192,19 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
+    color: rgb(0, 39, 97);
+    font-size: 1.5em;
+    font-family: 'Architects Daughter', cursive;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.5em;
-    color: rgb(58, 51, 53);
+    font-size: 1em;
+    color: rgb(0, 39, 97);
 }
 
 .article {
-    border-color: rgb(135, 151, 178);
+    border-color: rgb(0, 39, 97);
     border-style: solid;
     border-width: 2px;
 }
@@ -209,31 +213,8 @@ p {
     font-size: 12px;
     height: 475px;
     text-overflow: ellipsis;
-    padding: 10px;
+    padding: 6px;
 }
-
-.contact {
-    border: 5px dashed rgb(129, 186, 255);
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#map-image {
-    display: none;
-}
-
-.info {
-    text-align: center;
-    justify-content: center;
-    font-size: 12px;
-}
-
-.socialMedia {
-    text-align: center;
-}
-
-/*--------------Form-----------------------*/
-
 form fieldset {
     margin: 2rem 0;
     border-color: rgb(135, 151, 178);
@@ -327,7 +308,26 @@ form label.top input:required:valid {
     padding: .5rem;
 }
 
-/*--------------Footer----------------------*/
+.contact {
+    border: 5px dashed rgb(129, 186, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#map-image {
+    display: none;
+}
+
+.info {
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.socialMedia {
+    text-align: center;
+}
 
 footer {
     background-color: rgb(129, 186, 255);
@@ -341,7 +341,6 @@ footer {
     justify-content: center;
     margin: 5px;
 }
-
 
 .social a:hover {
     background-color: rgb(0, 39, 97);

@@ -4,7 +4,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(windChill);
-    let card = document.createElement("section");
+        let card = document.createElement("div");
     let prestonTemp = document.createElement("p");
     let prestonHigh = document.createElement("p");
     let prestonHumid = document.createElement("p");
@@ -13,29 +13,23 @@ fetch(apiURL)
     prestonHigh.textContent = `High: ${jsObject.main.temp_max} \xB0F`;
     prestonHumid.textContent = `Humidity: ${jsObject.main.humidity} %`;
     prestonWind.textContent = `Wind Speed: ${jsObject.wind.speed} mph`;
-
-    let chocolate = windChill(jsObject.main.temp, jsObject.wind.speed);
-
     card.appendChild(prestonTemp);
     card.appendChild(prestonHigh);
     card.appendChild(prestonHumid);
     card.appendChild(prestonWind);
 
+    function windChill(temp, windSpeed) {
+      if (temp > 50 && windSpeed < 3) {
+        windChill = "N/A";
+      } else {
+        var chill =
+          35.74 +
+          0.6215 * temp -
+          35.75 * Math.pow(windSpeed, 0.16) +
+          0.4275 * temp * Math.pow(windSpeed, 0.16);
+        chill = Math.round(chill * 1) / 1;
+      }
+    }
+    windChill(jsObject.main.temp, jsObject.wind.speed);
     document.querySelector(".cards").appendChild(card);
-    document.getElementById("chill").textContent = chocolate;
-  });
-
-function windChill(temp, windSpeed) {
-  let chill = 0;
-  if (temp > 50 && windSpeed < 3) {
-    chill = "N/A";
-  } else {
-    chill =
-      35.74 +
-      0.6215 * temp -
-      35.75 * Math.pow(windSpeed, 0.16) +
-      0.4275 * temp * Math.pow(windSpeed, 0.16);
-    chill = Math.round(chill * 1) / 1;
-  }
-  return chill;
-}
+  })

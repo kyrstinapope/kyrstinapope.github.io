@@ -1,0 +1,83 @@
+@media screen and (min-width: 60em) {
+    header {
+        border-width: 5px;
+    }
+    nav {
+        border-width: 5px;
+    }
+    .navigation a {
+        white-space: nowrap;
+        font-size: 1.5em;
+    }
+    .summary {
+        padding: 1.5rem;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 2.0em;
+    }
+    .img-grid {
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 150px;
+    }
+    .grid-item {
+        border: 3px solid rgb(135, 151, 178);
+    }
+    .grid-item:hover {
+        margin: 10px;
+        box-shadow: 10px 10px 5px rgb(135, 151, 178);
+    }
+    .forecast {
+        font-size: 2.0em;
+    }
+    /*--------------Form-----------------------*/
+    form label.top input, form label.top select {
+        width: 100%;
+        max-width: 20rem;
+    }
+    form label.middle {
+        padding: .4rem 0;
+    }
+    form fieldset {
+        margin: 2rem 250px;
+    }
+    form input.sumbitBtn {
+        margin: -12px 0 2rem 40%;
+    }
+    /* #map-image {
+        padding: 0% 10%;
+        
+    } */
+.cardsHome{
+    grid-template-columns: repeat(3, 350px);
+}
+.cardsHome section{
+        width: 300px;
+    }
+    .socialMedia {
+       
+        text-align: right;
+    }
+    footer {
+        font-size: 1.8em;
+        height: 64px;
+        white-space: nowrap;
+        text-align: center;
+        padding-top: 20px;
+        border-width: 5px;
+    }
+    header img {
+        width: 80%;
+    }
+    .headings h1 {
+        font-size: 3.5rem;
+    }
+    .m {
+        letter-spacing: 1.5pt;
+        font-size: 2rem;
+        margin-left: 17px;
+        margin-top: -20px;
+    }
+}
