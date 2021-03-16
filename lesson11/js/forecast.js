@@ -1,7 +1,7 @@
 // let cityID= 5604473;
 // let appID='9db90e96623f80837ffcf7bc7b3efd6d';
 const forecastApiURL =
-  "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=9db90e96623f80837ffcf7bc7b3efd6d";
+  "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=9db90e96623f80837ffcf7bc7b3efd6d";
 
 fetch(forecastApiURL)
   .then((response) => response.json())
