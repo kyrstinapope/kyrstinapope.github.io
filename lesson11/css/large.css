@@ -51,10 +51,12 @@
         
     } */
 .cardsHome{
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, 300px);
 }
 .cardsHome section{
-        width: 300px;
+    width: 263px;
+    margin-left: 21px;
+}
     }
     .socialMedia {
        
