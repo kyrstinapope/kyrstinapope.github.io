@@ -9,11 +9,12 @@
         white-space: nowrap;
         font-size: 1.5em;
     }
-    .summary {
-        padding: 1.5rem;
+    .summary{
+        top: 35px;
     }
     p {
         font-size: 1.5em;
+       
     }
     h2 {
         font-size: 2.0em;
@@ -29,6 +30,7 @@
         margin: 10px;
         box-shadow: 10px 10px 5px rgb(135, 151, 178);
     }
+    
     .forecast {
         font-size: 2.0em;
     }
@@ -57,9 +59,9 @@
     width: 263px;
     margin-left: 21px;
 }
-    }
+
     .socialMedia {
-       
+        padding-top: 10px;
         text-align: right;
     }
     footer {
@@ -82,3 +84,4 @@
         margin-left: 17px;
         margin-top: -20px;
     }
+}

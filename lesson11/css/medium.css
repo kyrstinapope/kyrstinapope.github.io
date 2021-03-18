@@ -30,6 +30,7 @@
         border: 2px solid rgb(42, 76, 145);
         box-shadow: 0 0 30px rgb(17, 17, 17);
         opacity: .8;
+        font-size: 12px;
     }
     .forecast {
         display: table;
@@ -37,7 +38,11 @@
         border: 5px dashed rgb(102, 206, 214);
         font-family: 'Architects Daughter', cursive;
         text-align: center;
+        padding:10px 10px 10px 10px;
     }
+    table {
+        border-spacing: 15px;
+      }
     .forecast_table th {
         justify-items: center;
         padding: 10px 10px 10px 10px;
@@ -58,6 +63,9 @@
     }
     .grid-item {
         width: 300px;
+    }
+    #hero-imageTown img{
+        margin-bottom: 0px;
     }
     img {
         max-width: 100%;

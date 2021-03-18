@@ -7,7 +7,7 @@
     ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Idaho Weather Watcher</title>
+    <title>Fish Haven</title>
     <meta name="description" content="Preston, Idaho Weather" />
     <link
       href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat&display=swap"
@@ -54,16 +54,19 @@
     <main>
       <h2>Fish Haven, ID</h2>
       <section class="hero">
-        <picture id="hero-image">
+        <picture id="hero-imageTown">
           <source
             media="(max-width: 32.5em)"
-            srcset="/lesson11/images/snowy_lake500x281_sm.jpg"
+            srcset="/lesson11/images/snowy_lake500x300_sm.jpg"
           />
           <source
             media="(max-width: 60em)"
-            srcset="/lesson11/images/snowy_lake1000x562_md.jpg"
+            srcset="/lesson11/images/snowy_lake1000x600_md.jpg"
           />
-          <img src="/lesson11/images/snowy_lake1840x400_lg.jpg" alt="hero image" />
+          <img
+            src="/lesson11/images/snowy_lake1840x600_lg.jpg"
+            alt="hero image"
+          />
         </picture>
         <div class="summary">
           <h3>Weather Summary</h3>
@@ -92,23 +95,23 @@
             <tr>
               <td>
                 <span id="imagesrc1"></span> &nbsp;
-                <img src="" alt="" id="icon" />>
+                <img src="" alt="" id="icon1" />
               </td>
               <td>
                 <span id="imagesrc2"></span> &nbsp;
-                <img src="" alt="" id="icon" />>
+                <img src="" alt="" id="icon2" />
               </td>
               <td>
                 <span id="imagesrc3"></span> &nbsp;
-                <img src="" alt="" id="icon" />>
+                <img src="" alt="" id="icon3" />
               </td>
               <td>
                 <span id="imagesrc4"></span> &nbsp;
-                <img src="" alt="" id="icon" />>
+                <img src="" alt="" id="icon4" />
               </td>
               <td>
                 <span id="imagesrc5"></span> &nbsp;
-                <img src="" alt="" id="icon" />>
+                <img src="" alt="" id="icon5" />
               </td>
             </tr>
           </tbody>
@@ -147,7 +150,11 @@
         >
       </section>
       <div class="contact">
-        <img id="map-image" src="/lesson11/images/map_fish361x360.jpg" alt="map" />
+        <img
+          id="map-image"
+          src="/lesson11/images/map_fish361x360.jpg"
+          alt="map"
+        />
         <section class="info">
           <h3>Contact Us:</h3>
           <i class="fas fa-map-pin"></i> 1234 Idaho Drive <br />
@@ -176,13 +183,10 @@
         <a target="_blank" href="../index.html"> Home</a> |
         <a target="_blank" href="https://www.byui.edu/online"
           >BYUI Online Learning</a
-        >
-        |
-        <br />
+        > |<br />
         <a target="_blank" href="https://openweathermap.org/"
           >Open Weather Map</a
-        >
-        <br />
+        ><br />
         Current Date:
         <span id="currentDate"></span>
       </div>
@@ -197,7 +201,7 @@
         },
       });
     </script>
-    <script src="js/fishweather.js"></script>
-    <script src="js/fishforecast.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/forecast.js"></script>
   </body>
 </html>

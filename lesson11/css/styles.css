@@ -164,19 +164,31 @@ img {
     width: 100%;
     max-width: 960px;
     height: auto;
-    margin: 10px auto;
+    margin: 0px auto 40px 0px;
     border-color: rgb(0, 39, 97);
     border-style: solid;
     border-width: 2px;
+    margin-bottom: 0px;
+}
+#hero-imageTown img {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    margin: 0px auto 40px 0px;
+    border-color: rgb(0, 39, 97);
+    border-style: solid;
+    border-width: 2px;
+    
 }
 
 .summary {
     border: 5px dashed rgb(129, 186, 255);
-    margin-top: 10px;
+    margin-top: -26px;
     margin-bottom: 10px;
     text-align: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 9px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(58, 51, 53);
 }
@@ -194,14 +206,24 @@ h2 {
 
 h3 {
     color: rgb(0, 39, 97);
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Architects Daughter', cursive;
+}
+.thanks{
+    color: rgb(0, 39, 97);
+    font-size: 3em;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 p {
+
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     color: rgb(0, 39, 97);
+    padding: 5px;
 }
 
 .article {
@@ -215,6 +237,7 @@ p {
     height: 475px;
     text-overflow: ellipsis;
     padding: 6px;
+    padding-bottom: 20px;
 }
 
 form fieldset {
@@ -330,13 +353,16 @@ form label.top input:required:valid {
        text-align: center;
     overflow: auto;
     resize: horizontal;
-    grid-gap: 2px 2px;
-    padding-top: 10px;
+    grid-gap: 15px 5px;
+    padding-top: 0px;
     padding-left: 30px;
+    padding-bottom: 10px;
     justify-content: center;
     /* border: solid #58595e 5px;
     box-shadow: 0px 0px 15px 15px #aaadbd;
     background-color: #d4d7ec; */
+
+  
 }
 .cardsHome section {
     margin-left: 36px;
@@ -349,8 +375,8 @@ form label.top input:required:valid {
 
 
 .socialMedia {
-    padding-top: 10px;
     text-align: center;
+    padding: 12px;
 }
 
 footer {
@@ -363,7 +389,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5px;
+    margin: 10px;
 }
 
 .social a:hover {
