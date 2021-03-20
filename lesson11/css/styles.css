@@ -128,6 +128,7 @@ nav li a:hover:not(.active) {
     width: 250px;
     align-content: center;
     justify-content: center;
+    
 }
 
 figcaption {
@@ -169,7 +170,6 @@ img {
     border-width: 2px;
     margin-bottom: 0px;
 }
-
 #hero-imageTown img {
     position: relative;
     width: 100%;
@@ -179,6 +179,7 @@ img {
     border-color: rgb(0, 39, 97);
     border-style: solid;
     border-width: 2px;
+    
 }
 
 .summary {
@@ -208,8 +209,7 @@ h3 {
     font-size: 1em;
     font-family: 'Architects Daughter', cursive;
 }
-
-.thanks {
+.thanks{
     color: rgb(0, 39, 97);
     font-size: 3em;
     font-family: 'Architects Daughter', cursive;
@@ -219,6 +219,7 @@ h3 {
 }
 
 p {
+
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     color: rgb(0, 39, 97);
@@ -345,16 +346,16 @@ form label.top input:required:valid {
     display: none;
 }
 
+
 .info {
     text-align: center;
     justify-content: center;
     font-size: 12px;
 }
-
 .cardsHome {
     display: grid;
     grid-template-columns: repeat(auto-fill, 350px);
-    text-align: center;
+       text-align: center;
     overflow: auto;
     resize: horizontal;
     grid-gap: 15px 5px;
@@ -365,8 +366,9 @@ form label.top input:required:valid {
     /* border: solid #58595e 5px;
     box-shadow: 0px 0px 15px 15px #aaadbd;
     background-color: #d4d7ec; */
-}
 
+  
+}
 .cardsHome section {
     margin-left: 36px;
     margin-bottom: 5px;
@@ -375,6 +377,7 @@ form label.top input:required:valid {
     align-content: center;
     justify-content: center;
 }
+
 
 .socialMedia {
     text-align: center;
