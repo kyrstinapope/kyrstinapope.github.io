@@ -1,0 +1,54 @@
+@media screen and (min-width: 32.5em) {
+    header {
+        height: auto;
+    }
+    .headings h1 {
+        font-size: 2em;
+    }
+    .navigation a {
+        border-right: 3px solid var(--accent3);
+        ;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: grid;
+    }
+    #end {
+        border-right: none;
+    }
+    table {
+        border-spacing: 15px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    form fieldset {
+        margin: 0rem 95px;
+    }
+    form input.sumbitBtn {
+        margin: -12px 0 1rem 22%;
+    }
+    .levelDesc_table {
+        font-size: 15px;
+    }
+    .confirmation {
+        font-size: 35px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    caption {
+        font-size: 18px;
+    }
+    footer {
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+    }
+}

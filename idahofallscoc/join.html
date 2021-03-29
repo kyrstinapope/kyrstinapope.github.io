@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b24250521b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Join Us</title>
+    <link rel="stylesheet" href="/idahofallscoc/css/normalize.css" />
+    <link rel="stylesheet" href="/idahofallscoc/css/styles.css" />
+    <link rel="stylesheet" href="/idahofallscoc/css/medium.css" />
+    <link rel="stylesheet" href="/idahofallscoc/css/large.css" />
+  </head>
+  <body>
+    <header>
+      <picture>
+        <a href="/idahofallscoc/index.html">
+          <img src="/idahofallscoc/images/logo.png" alt="logo" />
+        </a>
+      </picture>
+      <div class="headings">
+        <h1>Idaho Falls, ID Chamber of Commerce</h1>
+        <div class="m">Your town. Your city. Your home.</div>
+      </div>
+    </header>
+
+    <nav class="topNav">
+      <ul class="navigation">
+        <li><a href="#" onClick="toggleMenu()">☰ Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="idahofalls.html">Idaho Falls</a></li>
+        <li><a class="active" href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a id="end" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="joinHead"> Join Our Business Community!</h1>
+      <div id="feedback"></div>
+      <form method="get" action="/idahofallscoc/confirmation.html">
+        <fieldset>
+          <legend>Business Information</legend>
+
+          <label class="top">
+            First and Last Name*
+            <input type="text" name="fname" pattern="[A-Za-z\s]{5,}" required
+          /></label>
+          <label class="top">
+            Title
+            <input type="text" name="title"
+          /></label>
+          <label class="top"
+            ><i class="fa fa-envelope"></i>
+            Email*
+            <input
+              type="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+          /></label>
+          <label class="top"
+            ><i class="fas fa-phone"></i>
+            Cell Phone Number*
+            <input type="tel" name="phone" placeholder="1235551234" required
+          /></label>
+          <label class="top">
+            Business Name*
+            <input type="text" name="bname" pattern="[A-Za-z\s]{5,}" required
+          /></label>
+          <label class="top">
+            Business Address <br /><br /><i class="fa fa-address-card-o"></i>
+            Street Address
+            <input type="text" name="address" placeholder="542 W. 15th Street"
+          /></label>
+
+          <label class="top"
+            ><i class="fa fa-institution"></i>
+            City
+            <input type="text" name="city" placeholder="Idaho Falls"
+          /></label>
+
+          <label class="top">
+            State
+            <input type="text" name="state" placeholder="ID"
+          /></label>
+
+          <label class="top">
+            Zip Code*
+
+            <input
+              type="text"
+              name="zip"
+              pattern="[0-9]{5,}"
+              placeholder="12345"
+              required
+            />
+          </label>
+
+          <label class="top"
+            ><i class="fas fa-mouse-pointer"></i>
+            Business Website
+            <input type="url" name="burl" placeholder="https://business.com"
+          /></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Membership Options</legend>
+
+          <table class="levelDesc_table">
+            <caption>
+              Membership Breakdown
+            </caption>
+            <tbody>
+              <tr>
+                <th>Level</th>
+                <th>Cost</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>Non-Profit</td>
+                <td>$100</td>
+                <td>
+                  <ul>
+                    <li>For all non-profits not matter how many employees</li>
+                    <li>$100 a year to maintain membership</li>
+                    <li>Abilty to be nominated for business of the month</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Bronze</td>
+                <td>$200</td>
+                <td>
+                  <ul>
+                    <li>
+                      Perfect for businesses with less than 10 full-time
+                      employees
+                    </li>
+                    <li>$200 a year to maintain membership</li>
+                    <li>Abilty to be nominated for business of the month</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Silver</td>
+                <td>$400</td>
+                <td>
+                  <ul>
+                    <li>
+                      Perfect for businesses with more than 10 employees but
+                      less than 50
+                    </li>
+                    <li>$400 a year to maintain membership</li>
+                    <li>Abilty to be nominated for business of the month</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Gold</td>
+                <td>$1000</td>
+                <td>
+                  <ul>
+                    <li>Perfect for businesses with more than 50</li>
+                    <li>$1000 a year to maintain membership</li>
+                    <li>Abilty to be nominated for business of the month</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <label class="top"
+            >Level Options
+            <select name="levels">
+              <option value="">Select a Level.... &#9662;</option>
+              <option value="Non-Profit ($100)">Non-Profit ($100)</option>
+              <option value="Bronze ($200)">Bronze ($200)</option>
+              <option value="Silver ($400)">Silver ($400)</option>
+              <option value="Gold ($1000)">Gold ($1000)</option>
+            </select>
+          </label>
+        </fieldset>
+        <br />
+        <input type="submit" value="Submit Membership" class="sumbitBtn" />
+      </form>
+    </main>
+    <footer>
+      <div class="social">
+        &copy; 2021 - Kyrstina Pope | Idaho |
+        <a target="_blank" href="../index.html"> Home</a> |
+        <a target="_blank" href="https://www.byui.edu/online"
+          >BYUI Online Learning</a
+        >
+        |
+        <br />
+        <a target="_blank" href="https://openweathermap.org/"
+          >Open Weather Map</a
+        >
+        <br />
+        Last Modified:
+        <script>
+          document.write(document.lastModified);
+        </script>
+      </div>
+    </footer>
+    <script src="js/toggle.js"></script>
+    <!-- <script src="js/date.js"></script> -->
+    <!-- <script src="js/lazyload.js"></script>
+    <script src="js/event.js"></script> -->
+
+    <!-- <script>
+      WebFont.load({google: {
+          families: ["Kiwi Maru", serif, "Open Sans", sans - serif],
+        },
+      });
+    </script> -->
+  </body>
+</html>
