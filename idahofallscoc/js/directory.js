@@ -15,24 +15,30 @@ fetch(requestURL)
       let p2 = document.createElement("p");
       let p3 = document.createElement("p");
       let p4 = document.createElement("p");
+      let p5 = document.createElement("p");
+      let p6 = document.createElement("p");
+      let p7 = document.createElement("p");
       let img = document.createElement("img");
 
       h2.textContent = businesses[i].name;
       p.textContent = "Address:" + " " + businesses[i].address;
       p2.textContent = "Phone Number:" + " " + businesses[i].phone;
-      p3.textContent = "Hours:" + " " + businesses[i].hours;
-      p4.textContent = "Website:" + " " + businesses[i].website;
+      p3.textContent = "Hours:";
+      p4.textContent = businesses[i].hours[0];
+      p5.textContent = businesses[i].hours[1];
+      p6.textContent = businesses[i].hours[2];
+      p7.textContent = "Website:" + " " + businesses[i].website;
       img.setAttribute("src", businesses[i].photo);
-      img.setAttribute(
-        "alt",
-        businesses[i].name
-      );
+      img.setAttribute("alt", businesses[i].name);
 
       card.appendChild(h2);
       card.appendChild(p);
       card.appendChild(p2);
       card.appendChild(p3);
       card.appendChild(p4);
+      card.appendChild(p5);
+      card.appendChild(p6);
+      card.appendChild(p7);
       card.appendChild(img);
 
       document.querySelector("div.cards").appendChild(card);
