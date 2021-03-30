@@ -31,6 +31,7 @@ fetch(requestURL)
       img.setAttribute("src", businesses[i].photo);
       img.setAttribute("alt", businesses[i].name);
 
+      card.appendChild(img);
       card.appendChild(h2);
       card.appendChild(p);
       card.appendChild(p2);
@@ -39,7 +40,6 @@ fetch(requestURL)
       card.appendChild(p5);
       card.appendChild(p6);
       card.appendChild(p7);
-      card.appendChild(img);
 
       document.querySelector("div.cards").appendChild(card);
     }

@@ -1,9 +1,7 @@
-
-
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, 350px);
-       text-align: center;
+    text-align: center;
     overflow: auto;
     resize: horizontal;
     grid-gap: 2px 2px;
@@ -28,18 +26,21 @@ h1 {
     color: rgb(16, 66, 141);
 }
 
-h2 {color: rgb(16, 66, 141);}
+h2 {
+    color: rgb(16, 66, 141);
+}
 
 /* date of birth */
 
-p { margin: 0;}
+p {
+    margin: 0;
+}
 
 /* place of birth */
 
 p2 {}
 
- img {
-   
+img {
     height: auto;
     width: 70%;
     box-shadow: 0px 0px 15px 5px #615657;
