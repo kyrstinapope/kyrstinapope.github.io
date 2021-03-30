@@ -2,7 +2,7 @@
     "businesses": [
         {
     "name": "C-A-L Ranch Stores",
-    "photo": "calranch.jpg",
+    "photo": "kyrstinapope.github.io/idahofallscoc/images/calranch.jpg",
     "address": "1027 S 25th E, Ammon, ID 83406",
     "phone": "208-523-3431",
     "hours": [
@@ -14,7 +14,7 @@
         },
         {
     "name": "Albertsons",
-    "photo": "albertsons.jpg",
+    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/albertsons.jpg",
     "address": "590 E 17th Stree, Idaho Falls, ID 83404",
     "phone": "208-523-0950",
     "hours": [
@@ -26,7 +26,7 @@
         },
         {
     "name": "Dixie's Diner",
-    "photo": "dixies.jpg",
+    "photo": "kyrstinapope.github.io/idahofallscoc/images/dixies.jpg",
     "address": "2150 Channing Way, Idaho Falls, ID 83404",
     "phone": "208-542-1950",
     "hours": [
@@ -38,7 +38,7 @@
         },
         {
     "name": "Abracadabras",
-    "photo": "abra.jpg",
+    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/abra.jpg",
     "address": "2040 Channing Way, Idaho Falls, ID 83404",
     "phone": "208-881-9024",
     "hours": [
@@ -51,7 +51,7 @@
         },
         {
     "name": "Drink Factory",
-    "photo": "drink.jpg",
+    "photo": "kyrstinapope.github.io/idahofallscoc/images/drink.jpg",
     "address": "2565 E 17th St #1, Ammon, ID 83406",
     "phone": "208-557-9463",
     "hours": [
@@ -63,7 +63,7 @@
         },
         {
     "name": "Boot Barn",
-    "photo": "bootbarn.jpg",
+    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/bootbarn.jpg",
     "address": "1951 S 25th E, Ammon, ID 83406",
     "phone": "208-522-0842",
     "hours": [
@@ -75,7 +75,7 @@
         },
         {
     "name": "Famous Footwear",
-    "photo": "footwear.jpg",
+    "photo": "kyrstinapope.github.io/idahofallscoc/images/footwear.jpg",
     "address": "2053 S 25th E, Ammon, ID 83406",
     "phone": "208-497-6340",
     "hours": [
