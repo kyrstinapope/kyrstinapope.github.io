@@ -2,7 +2,7 @@
     "businesses": [
         {
     "name": "C-A-L Ranch Stores",
-    "photo": "kyrstinapope.github.io/idahofallscoc/images/calranch.jpg",
+    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/calranch.jpg",
     "address": "1027 S 25th E, Ammon, ID 83406",
     "phone": "208-523-3431",
     "hours": [
@@ -26,7 +26,7 @@
         },
         {
     "name": "Dixie's Diner",
-    "photo": "kyrstinapope.github.io/idahofallscoc/images/dixies.jpg",
+    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/dixies.jpg",
     "address": "2150 Channing Way, Idaho Falls, ID 83404",
     "phone": "208-542-1950",
     "hours": [
@@ -51,7 +51,7 @@
         },
         {
     "name": "Drink Factory",
-    "photo": "kyrstinapope.github.io/idahofallscoc/images/drink.jpg",
+    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/drink.jpg",
     "address": "2565 E 17th St #1, Ammon, ID 83406",
     "phone": "208-557-9463",
     "hours": [
@@ -75,7 +75,7 @@
         },
         {
     "name": "Famous Footwear",
-    "photo": "kyrstinapope.github.io/idahofallscoc/images/footwear.jpg",
+    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/footwear.jpg",
     "address": "2053 S 25th E, Ammon, ID 83406",
     "phone": "208-497-6340",
     "hours": [

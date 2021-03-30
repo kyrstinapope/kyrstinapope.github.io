@@ -1,5 +1,5 @@
 const requestURL =
-  "https://kyrstinapope.github.io/idahofallscoc/directory.json";
+  "https://kyrstinapope.github.io/idahofallscoc/json/directory.json";
 
 fetch(requestURL)
   .then(function (response) {
