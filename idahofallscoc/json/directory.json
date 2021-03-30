@@ -1,89 +1,88 @@
 {
-    "businesses": [
-        {
-    "name": "C-A-L Ranch Stores",
-    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/calranch.jpg",
-    "address": "1027 S 25th E, Ammon, ID 83406",
-    "phone": "208-523-3431",
-    "hours": [
-                "Monday-Thursday: 8am - 9pm",
-                "Friday-Saturday: 8am - 9pm",
-                "Sunday: 9am - 6pm"
-            ],
-    "website": "https://www.calranch.com/"
-        },
-        {
-    "name": "Albertsons",
-    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/albertsons.jpg",
-    "address": "590 E 17th Stree, Idaho Falls, ID 83404",
-    "phone": "208-523-0950",
-    "hours": [
-                "Monday-Thursday: 6am - 11pm",
-                "Friday-Saturday: 6am - 11pm",
-                "Sunday: 6am - 11pm"
-            ],
-    "website": "https://www.albertsons.com/"
-        },
-        {
-    "name": "Dixie's Diner",
-    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/dixies.jpg",
-    "address": "2150 Channing Way, Idaho Falls, ID 83404",
-    "phone": "208-542-1950",
-    "hours": [
-                "Monday-Thursday: 7am - 9pm",
-                "Friday-Saturday: 7am - 10pm",
-                "Sunday: 7am - 9pm"
-            ],
-    "website": "https://www.dixiesdiner.com/"
-        },
-        {
-    "name": "Abracadabras",
-    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/abra.jpg",
-    "address": "2040 Channing Way, Idaho Falls, ID 83404",
-    "phone": "208-881-9024",
-    "hours": [
-                "Monday: 8:15am - 2pm",
-                "Tuesday: Closed",
-                "Wednesday-Sunday: 8:15am - 2pm"
-               
-            ],
-    "website": "https://www.facebook.com/abracadabras"
-        },
-        {
-    "name": "Drink Factory",
-    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/drink.jpg",
-    "address": "2565 E 17th St #1, Ammon, ID 83406",
-    "phone": "208-557-9463",
-    "hours": [
-                "Monday-Friday: 7am - 8pm",
-                "Saturday: 8am - 8pm",
-                "Sunday: Closed"
-            ],
-    "website": "https://mydrinkfactory.com/"
-        },
-        {
-    "name": "Boot Barn",
-    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/bootbarn.jpg",
-    "address": "1951 S 25th E, Ammon, ID 83406",
-    "phone": "208-522-0842",
-    "hours": [
-                "Monday-Thursday: 9am - 8pm",
-                "Friday-Saturday: 8am - 9pm",
-                "Sunday: 11am - 6pm"
-            ],
-    "website": "https://www.bootbarn.com/"
-        },
-        {
-    "name": "Famous Footwear",
-    "photo": "https://kyrstinapope.github.io/idahofallscoc/images/footwear.jpg",
-    "address": "2053 S 25th E, Ammon, ID 83406",
-    "phone": "208-497-6340",
-    "hours": [
-                "Monday-Thursday: 10am - 6pm",
-                "Friday-Saturday: 10am - 6pm",
-                "Sunday: 12pm - 6pm"
-            ],
-    "website": "https://www.famousfootwear.com/"
-        }
-    ]
+  "businesses": [
+    {
+      "name": "C-A-L Ranch Stores",
+      "photo": "https://kyrstinapope.github.io/idahofallscoc/images/calranch.jpg",
+      "address": "1027 S 25th E, Ammon, ID 83406",
+      "phone": "208-523-3431",
+      "hours": [
+        "Monday-Thursday: 8am - 9pm",
+        "Friday-Saturday: 8am - 9pm",
+        "Sunday: 9am - 6pm"
+      ],
+      "website": "https://www.calranch.com/"
+    },
+    {
+      "name": "Albertsons",
+      "photo": "https://kyrstinapope.github.io/idahofallscoc/images/albertsons.jpg",
+      "address": "590 E 17th Stree, Idaho Falls, ID 83404",
+      "phone": "208-523-0950",
+      "hours": [
+        "Monday-Thursday: 6am - 11pm",
+        "Friday-Saturday: 6am - 11pm",
+        "Sunday: 6am - 11pm"
+      ],
+      "website": "https://www.albertsons.com/"
+    },
+    {
+      "name": "Dixie's Diner",
+      "photo": "https://kyrstinapope.github.io/idahofallscoc/images/dixies.jpg",
+      "address": "2150 Channing Way, Idaho Falls, ID 83404",
+      "phone": "208-542-1950",
+      "hours": [
+        "Monday-Thursday: 7am - 9pm",
+        "Friday-Saturday: 7am - 10pm",
+        "Sunday: 7am - 9pm"
+      ],
+      "website": "https://www.dixiesdiner.com/"
+    },
+    {
+      "name": "Abracadabras",
+      "photo": "https://kyrstinapope.github.io/idahofallscoc/images/abra.jpg",
+      "address": "2040 Channing Way, Idaho Falls, ID 83404",
+      "phone": "208-881-9024",
+      "hours": [
+        "Monday: 8:15am - 2pm",
+        "Tuesday: Closed",
+        "Wednesday-Sunday: 8:15am - 2pm"
+      ],
+      "website": "https://www.facebook.com/abracadabras"
+    },
+    {
+      "name": "Drink Factory",
+      "photo": "https://kyrstinapope.github.io/idahofallscoc/images/drink.jpg",
+      "address": "2565 E 17th St #1, Ammon, ID 83406",
+      "phone": "208-557-9463",
+      "hours": [
+        "Monday-Friday: 7am - 8pm",
+        "Saturday: 8am - 8pm",
+        "Sunday: Closed"
+      ],
+      "website": "https://mydrinkfactory.com/"
+    },
+    {
+      "name": "Boot Barn",
+      "photo": "https://kyrstinapope.github.io/idahofallscoc/images/bootbarn.jpg",
+      "address": "1951 S 25th E, Ammon, ID 83406",
+      "phone": "208-522-0842",
+      "hours": [
+        "Monday-Thursday: 9am - 8pm",
+        "Friday-Saturday: 8am - 9pm",
+        "Sunday: 11am - 6pm"
+      ],
+      "website": "https://www.bootbarn.com/"
+    },
+    {
+      "name": "Famous Footwear",
+      "photo": "https://kyrstinapope.github.io/idahofallscoc/images/footwear.jpg",
+      "address": "2053 S 25th E, Ammon, ID 83406",
+      "phone": "208-497-6340",
+      "hours": [
+        "Monday-Thursday: 10am - 6pm",
+        "Friday-Saturday: 10am - 6pm",
+        "Sunday: 12pm - 6pm"
+      ],
+      "website": "https://www.famousfootwear.com/"
+    }
+  ]
 }
