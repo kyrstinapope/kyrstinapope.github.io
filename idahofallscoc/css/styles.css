@@ -101,10 +101,10 @@ nav li a.active {
     text-decoration-color: var(--accent3);
 }
 
-nav li a:hover:not(.active) {
-    /* background-color: var(--accent1);
-    color:var(--accent4); */
-}
+/* nav li a:hover:not(.active) {
+    background-color: var(--accent1);
+    color:var(--accent4);
+} */
 
 .responsive li {
     display: block;
