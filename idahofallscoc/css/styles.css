@@ -106,6 +106,14 @@ nav li a.active {
     color:var(--accent4);
 } */
 
+.grid {
+    display: none;
+}
+
+.list {
+    display: none;
+}
+
 .responsive li {
     display: block;
 }
@@ -126,7 +134,7 @@ p {
 }
 
 form fieldset {
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-color: var(--accent2);
     border-style: solid;
     border-width: 2px;
@@ -226,9 +234,6 @@ caption {
     box-shadow: 0px 0px 15px 15px #aaadbd;
     background-color: #d4d7ec; */
 }
-p:nth-of-type(3) {
-  padding:0px;
-  }
 
 section {
     margin-left: 36px;
@@ -242,10 +247,11 @@ section {
 .cards img {
     height: auto;
     width: 29%;
-    box-shadow: 0px 0px 15px 5px #615657;
+    box-shadow: 0px 0px 11px -1px #171f49;
     margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 10px;
+    margin-right: 10px;
     float: left;
 }
 
@@ -258,6 +264,44 @@ section {
 
 .cards h2 {
     font-size: 15px;
+}
+.contact{
+    margin-top: 2rem;
+    border-color: var(--accent2);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: .5rem;
+}
+.contact h3 {
+    margin-left: 25px;
+}
+
+.contact p {
+    margin-left: 70px;
+}
+
+iframe{
+    width:300px;
+    height:250px;
+}
+.disclaimer {
+    font-size: .6em;
+    font-style: italic;
+    margin-left: 100px;
+}
+.boardDirectors{
+    margin-top: 5px;
+    border-color: var(--accent2);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: .5rem;
+   
+}
+.boardDirectors h1{
+    text-align: center;
+    font-size: 22px;
 }
 
 .socialMedia {

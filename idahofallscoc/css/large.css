@@ -47,6 +47,10 @@
     caption {
         font-size: 22px;
     }
+    .contact{
+        margin: 0rem 250px;
+    }
+    .boardDirectors{margin: 0rem 250px;}
     .socialMedia {
         padding-top: 10px;
         text-align: right;
