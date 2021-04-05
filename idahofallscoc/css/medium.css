@@ -21,6 +21,50 @@
     #end {
         border-right: none;
     }
+    #hero-imageTown img {
+        margin-bottom: 0px;
+    }
+    .question {
+        text-align: center;
+    }
+    .contact h3{
+        margin-left: -550px;
+    }
+    .article {
+        margin: 10px auto;
+        justify-items: center;
+        padding: 10px 10px 10px 10px;
+        max-width: 1000px;
+    }
+    .articleText {
+        height: auto;
+        font-size: 15px;
+    }
+    #art-image {
+        display: block;
+        float: right;
+        width: auto;
+        height: 230px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-shadow: 10px 10px 50px rgb(0 39 97);
+        margin-left: 10px;
+    }
+    .trivbuttons, .votebuttons {
+        margin-left: 50px;
+    }
+    .lastTrivia {
+        width: 60%;
+        margin-left: 100px;
+    }
+    .questionsumbitBtn {
+        width: 15%;
+        margin-left: 50px;
+    }
+    .trivsumbitBtn, .votesumbitBtn {
+        width: 60%;
+        margin-left: 100px;
+    }
     table {
         border-spacing: 15px;
     }
@@ -54,12 +98,13 @@
     .contact {
         margin: 0rem 95px;
     }
-    .boardDirectors{
+    .boardDirectors {
         margin: .5rem 95px;
+        font-size: 20px;
     }
-    iframe{
-        width:600px;
-        height:450px;
+    iframe {
+        width: 600px;
+        height: 450px;
     }
     .cards {
         display: grid;
@@ -80,6 +125,15 @@
         margin-bottom: 5px;
         border: 2px solid var( --accent2);
         width: 250px;
+        align-content: center;
+        justify-content: center;
+    }
+    .ifarticle1, .ifarticle2, .ifarticle3, .ifarticle4, .ifarticle5 {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 5px;
+        border: 2px solid var( --accent2);
+        /* width: 250px; */
         align-content: center;
         justify-content: center;
     }

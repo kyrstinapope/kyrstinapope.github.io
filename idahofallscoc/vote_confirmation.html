@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <title>Chamber of Commerce</title>
+    <title>Join Us</title>
     <link rel="stylesheet" href="/idahofallscoc/css/normalize.css" />
     <link rel="stylesheet" href="/idahofallscoc/css/styles.css" />
     <link rel="stylesheet" href="/idahofallscoc/css/medium.css" />
@@ -36,29 +36,18 @@
       <ul class="navigation">
         <li><a href="#" onClick="toggleMenu()">☰ Menu</a></li>
         <li><a href="index.html">Home</a></li>
-        <li><a href="idahofalls.html">Idaho Falls</a></li>
+        <li><a class="active" href="idahofalls.html">Idaho Falls</a></li>
         <li><a href="join.html">Join</a></li>
-        <li><a class="active" href="directory.html">Directory</a></li>
+        <li><a href="directory.html">Directory</a></li>
         <li><a id="end" href="contact.html">Contact</a></li>
       </ul>
     </nav>
+
     <main>
-      <div id="btnContainer">
-        <button class="btn" onclick="listView()">
-          <i class="fa fa-bars"></i> List
-        </button>
-        <button class="btn active" onclick="gridView()">
-          <i class="fa fa-th-large"></i> Grid
-        </button>
-      </div>
-      <div class="row">
-        <div class="column">
-          <div class="cards"></div>
-        </div>
-        <div class="column">
-          <div class="cards"></div>
-        </div>
-      </div>
+        <p class="confirmation">
+            Thank you for voting! <br />
+            The winner will be announced the 1st of each month!
+          </p>
     </main>
     <footer>
       <div class="social">
@@ -72,12 +61,6 @@
         <a target="_blank" href="https://openweathermap.org/"
           >Open Weather Map</a
         >
-        |
-        <a
-          target="_blank"
-          href="https://kyrstinapope.github.io/idahofallscoc/json/directory.json"
-          >Json</a
-        >
         <br />
         Last Modified:
         <script>
@@ -86,7 +69,6 @@
       </div>
     </footer>
     <script src="js/toggle.js"></script>
-    <script src="/idahofallscoc/js/directory.js"></script>
     <!-- <script src="js/date.js"></script> -->
     <!-- <script src="js/lazyload.js"></script>
     <script src="js/event.js"></script> -->
