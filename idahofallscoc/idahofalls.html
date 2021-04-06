@@ -43,10 +43,8 @@
       </ul>
     </nav>
     <main>
-      
       <h2 class="fallsHead">Idaho Falls, ID</h2>
       <div class="hero">
-       
         <picture id="iftown">
           <source
             media="(max-width: 32.5em)"
@@ -62,15 +60,16 @@
           />
         </picture>
       </div>
-      <section class="ifarticle1">
-        <h2>Idaho Falls Weekly Trivia</h2>
-        <img
+
+      <!-- <img
           id="triv-image"
           src="/idahofallscoc/images/question.jpg"
           alt="Question"
-        />
-        <p class="question">What Year was Idaho Falls Founded?</p>
-        <form method="get" action="/idahofallscoc/trivia_confirmation.html">
+        /> -->
+      <form method="get" action="/idahofallscoc/trivia_confirmation.html">
+        <fieldset class="ifarticle1">
+          <legend>Idaho Falls Weekly Trivia</legend>
+          <p>What Year was Idaho Falls Founded?</p>
           <label class="trivbuttons">
             <input type="radio" name="triv" value="1963" /> 1864</label
           >
@@ -87,8 +86,8 @@
             1801</label
           >
           <input type="submit" value="Submit Answer" class="trivsumbitBtn" />
-        </form>
-      </section>
+        </fieldset>
+      </form>
       <section class="ifarticle2">
         <h2>Upcoming City Events:</h2>
         <ul class="events">
@@ -140,9 +139,10 @@
           >More Idaho Falls History</a
         >
       </section>
-      <section class="ifarticle5">
-        <h2>Vote for Buisness of the Month!!</h2>
-        <form method="get" action="/idahofallscoc/vote_confirmation.html">
+
+      <form method="get" action="/idahofallscoc/vote_confirmation.html">
+        <fieldset class="ifarticle5">
+          <legend>Vote for Buisness of the Month!!</legend>
           <label class="votebuttons">
             <input type="radio" name="vote" value="Abracadabras" />
             Abracadabras</label
@@ -179,8 +179,8 @@
           ><br />
 
           <input type="submit" value="Submit Answer" class="votesumbitBtn" />
-        </form>
-      </section>
+        </fieldset>
+      </form>
       <section class="ifarticle4">
         <h2>Idaho Falls Could See Population Boom in Next 10 Years</h2>
         <p class="articleText">
@@ -211,19 +211,6 @@
           Valley. Eastern Idaho continues to log steady growth, with towns such
           as Ammon growing at nearly twice the rate as Idaho Falls. Ammon topped
           16,000 for the first time in 2019. <br /><br />
-
-          The amount of recent growth is not a surprise to Ammon Mayor Sean
-          Coletti.<br /><br />
-          “I think that’s totally consistent with what I’ve expected and
-          experienced for the city,” Coletti said. Constant growth has its
-          pluses but also brings with it challenges. One issue is housing
-          affordability.<br /><br />
-          “I’ve worked for the city for 15 years, and it was always a great
-          point of pride that we had such a low cost of living,” Cramer said.
-          “And that’s not necessarily true anymore — at least right now it’s
-          not. We can’t just keep thinking that we’ll keep building subdivision
-          after subdivision after subdivision. There will be a market for that,
-          but it can’t be the only thing we do.”
         </p>
 
         <a
