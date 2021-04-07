@@ -101,43 +101,40 @@ nav li a.active {
     text-decoration-color: var(--accent3);
 }
 
-.forecast, .currentWeather {
-    display: table;
-    margin-top: 1rem;
-    border-color: var(--accent2);
+.currentWeather {
+    margin-top: 15px;
+    border-color: var(--head);
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
-    padding: 1px;
-    font-family: var(--paragraph-font);
+    padding-bottom: 10px;
+}
+
+.currentWeather td {
     font-size: 12px;
+    padding: 0;
 }
 
-.currentWeather {
-    width: 130px;
-    margin-left: 5px;
-    height: auto;
-}
 
-.forecast {
-    width: 166px;
-    margin-left: 146px;
-    margin-top: -163px;
-    height: auto;
-}
 
 .current_table {
     text-align: left;
+    margin-left: 91px;
+}
+
+.forecast_table {
+    /* text-align: left; */
+    margin-left: 59px;
 }
 
 .current_table .fas, .far {
     justify-items: center;
     font-size: 60px;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
     color: var(--accent3);
 }
 
-.forecast .fas, .far {
+.forecast_table .fas, .far {
     justify-items: center;
     font-size: 60px;
     padding: 10px 15px;
@@ -311,12 +308,24 @@ caption {
 
 section {
     margin-left: 36px;
+    margin-top: 10px;
     margin-bottom: 5px;
     border: 2px solid var( --accent2);
     border-radius: 10px;
     width: 250px;
     align-content: center;
     justify-content: center;
+}
+
+.homeArticle1, .homeArticle2, .feature1, .feature2, .feature3 {
+    margin-top: 15px;
+    border-color: var(--head);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 95%
 }
 
 .ifarticle1, .ifarticle2, .ifarticle3, .ifarticle4, .ifarticle5 {
@@ -355,11 +364,30 @@ section {
     padding: 0px 6px;
 }
 
+.homeText {
+    font-family: var(--paragraph-font);
+    font-size: 12px;
+    text-overflow: ellipsis;
+    padding: 6px;
+}
+
 .articleText {
     font-family: var(--paragraph-font);
     font-size: 12px;
     text-overflow: ellipsis;
     padding: 6px;
+}
+
+.info {
+    margin-top: 15px;
+    border-color: var(--head);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 90%;
 }
 
 #art-image, #triv-image {
@@ -376,11 +404,27 @@ section {
     margin-left: 5px;
 }
 
+.joinbtn {
+    border: none;
+    background-color: var(--accent3);
+    color: white;
+    font-size: 18px;
+    font-family: var(--heading-font);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    margin-top: 15px;
+}
+
 .question {
     font-size: 15px;
 }
 
 .events {
+    font-family: var(--paragraph-font);
+}
+
+.events_home {
     font-family: var(--paragraph-font);
 }
 

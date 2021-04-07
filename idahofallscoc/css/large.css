@@ -29,17 +29,10 @@
         margin: 0px;
     }
     .currentWeather {
-        font-size: 25px;
-        margin-bottom: 15px;
-        width: 400px;
-        margin-left: 250px;
-    }
-    .forecast {
-        font-size: 25px;
-        width: 350px;
-        margin-left: 740px;
-        margin-top: -305px;
-    }
+        width: 35%;
+    margin-left: 214px;
+}
+    
     form label.top input, form label.top select {
         width: 100%;
         max-width: 20rem;
@@ -69,7 +62,20 @@
     .boardDirectors {
         margin: .5rem 250px;
     }
+    .events_home{
+        margin-left: 720px;
+        margin-bottom: 339px;
+        margin-top: -621px;
+        border: 2px solid var( --accent2);
+        width: 573px;
+        align-content: center;
+        justify-content: center;
+    }
     .ifarticle1 {
+        width: 35%;
+        margin-left: 214px;
+    }
+    .feature1 {
         width: 35%;
         margin-left: 214px;
     }
@@ -95,7 +101,19 @@
         margin-top: -222px;
         margin-bottom: -24px;
     }
+    .feature2 {
+        width: 35%;
+        padding-bottom: 0px;
+        margin-left: 786px;
+        margin-top: -222px;
+        margin-bottom: -24px;
+    }
     .lastTrivia {
+        width: 30%;
+        margin-left: 565px;
+        margin-top: 35px;
+    }
+    .joinbtn {
         width: 30%;
         margin-left: 565px;
         margin-top: 35px;
@@ -113,6 +131,24 @@
         margin-bottom: 5px;
     }
     .ifarticle5 {
+        height: 327px;
+        width: 519px;
+        margin-left: 215px;
+        margin-bottom: 90px;
+    }
+    .feature3 {
+        width: 36%;
+        margin-left: 216px;
+        margin-top: 20px;
+        margin-bottom: 37px;
+    }
+    .homeArticle1 {
+        width: 35%;
+        margin-left: 785px;
+        margin-top: -701px;
+        margin-bottom: 5px;
+    }
+    .homeArticle2 {
         height: 327px;
         width: 519px;
         margin-left: 215px;

@@ -19,16 +19,37 @@
         display: grid;
     }
     .currentWeather {
-        width: 162px;
-        margin-left: 32px;
-        height: auto;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 5px;
+        border: 2px solid var( --accent2);
+        /* width: 250px; */
+        align-content: center;
+        justify-content: center;
+    }
+    .info{
+        margin-left: 20px;
+    }
+    /* .currentWeather td {
+        font-size: 26px;
+       
+    } */
+    .current_header {
+        font-size: 35px;
     }
     
+    .forecast_header {
+        font-size: 35px;
+    }
     .forecast {
-        width: 245px;
+        
         margin-left: 233px;
         margin-top: -229px;
         height: auto;
+    }
+    #icon{
+        font-size: 100px;
+        padding: 0px;
     }
     table {
         border-spacing: 15px;
@@ -60,6 +81,10 @@
         height: auto;
         font-size: 15px;
     }
+    .homeText {
+        height: auto;
+        font-size: 15px;
+    }
     #art-image {
         display: block;
         float: right;
@@ -74,6 +99,10 @@
         margin-left: 50px;
     }
     .lastTrivia {
+        width: 60%;
+        margin-left: 100px;
+    }
+    .joinbtn{
         width: 60%;
         margin-left: 100px;
     }
@@ -144,11 +173,21 @@
         margin-left: 36px;
         margin-bottom: 5px;
         border: 2px solid var( --accent2);
-        width: 250px;
+        width: 495px;
         align-content: center;
         justify-content: center;
     }
+    
     .ifarticle1, .ifarticle2, .ifarticle3, .ifarticle4, .ifarticle5 {
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 5px;
+        border: 2px solid var( --accent2);
+        /* width: 250px; */
+        align-content: center;
+        justify-content: center;
+    }
+    .homeArticle1, .homeArticle2, .feature1, .feature2, .feature3 {
         margin-left: 14px;
         margin-right: 14px;
         margin-bottom: 5px;
