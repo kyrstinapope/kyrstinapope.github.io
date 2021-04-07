@@ -1,5 +1,5 @@
-function nothing(cityId) {
-  const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityId}&units=imperial&appid=9db90e96623f80837ffcf7bc7b3efd6d`;
+
+  const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=5596475&units=imperial&appid=9db90e96623f80837ffcf7bc7b3efd6d`;
   fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -24,7 +24,7 @@ function nothing(cityId) {
       document.querySelector(".cards").appendChild(card);
       document.getElementById("chill").textContent = chocolate;
     });
-}
+
 function windChill(temp, windSpeed) {
   let chill = 0;
   if (temp <= 50 && windSpeed > 3) {
@@ -40,12 +40,12 @@ function windChill(temp, windSpeed) {
   return chill;
 }
 
-var book = document.title;
+// var book = document.title;
 
-if (book == "Preston") {
-  nothing(5604473);
-} else if (book == "Soda Springs") {
-  nothing(5607916);
-} else if (book == "Fish Haven") {
-  nothing(5585010);
-}
+// if (book == "Preston") {
+//   nothing(5604473);
+// } else if (book == "Soda Springs") {
+//   nothing(5607916);
+// } else if (book == "Fish Haven") {
+//   nothing(5585010);
+// }

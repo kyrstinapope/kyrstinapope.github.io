@@ -21,7 +21,7 @@ function everything(cityId) {
           dailyFor.weather[0].icon +
           ".png"; // note the concatenation
         const desc = dailyFor.weather[0].description; // note how we reference the weather array
-
+console.log(day);
         console.log(i);
         if (hours == 18) {
           // console.log(day);
