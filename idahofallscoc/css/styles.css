@@ -264,13 +264,15 @@ nav li a.active {
     border: none;
     background-color: var(--accent3);
     color: white;
-    font-size: 18px;
+   
     font-family: var(--heading-font);
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
+    text-align: center;
+   justify-content: center;
 }
 
 .events_home {
@@ -466,12 +468,12 @@ section {
     padding: 0px 6px;
 }
 
-.homeText {
+/* .homeText {
     font-family: var(--paragraph-font);
     font-size: 12px;
     text-overflow: ellipsis;
     padding: 6px;
-}
+} */
 
 .articleText {
     font-family: var(--paragraph-font);
