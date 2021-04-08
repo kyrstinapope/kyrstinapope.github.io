@@ -36,16 +36,27 @@
 
     <nav class="topNav">
       <ul class="navigation">
-        <li><a href="#" onClick="toggleMenu()">☰ Menu</a></li>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="idahofalls.html">Idaho Falls</a></li>
-        <li><a href="join.html">Join</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a id="end" href="contact.html">Contact</a></li>
+        <li>
+          <a href="#" onclick="toggleMenu()">☰ Menu</a>
+        </li>
+        <li>
+          <a class="active" href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="idahofalls.html">Idaho Falls</a>
+        </li>
+        <li>
+          <a href="join.html">Join</a>
+        </li>
+        <li>
+          <a href="directory.html">Directory</a>
+        </li>
+        <li>
+          <a id="end" href="contact.html">Contact</a>
+        </li>
       </ul>
     </nav>
     <main>
-      <h2 class="fallsHead">Idaho Falls, ID</h2>
       <div class="hero">
         <picture id="iftown">
           <source
@@ -62,270 +73,230 @@
           />
         </picture>
       </div>
+      <div class="home-grid">
+        <div class="weather-grid">
+          <h3 class="current_header">Current Weather</h3>
+          <div class="grid-item1">
+            Currently:
+            <div id="currentTemp"></div>
+            &deg;F
+          </div>
+          <div class="grid-item2" id="imagesrc">
+            &nbsp;<img src="" alt="" id="icon" />
+          </div>
+          <div id="conditionDesc" class="grid-item3"></div>
+          <div class="grid-item4">
+            Humidity:
+            <div id="currentHum"></div>
+            %
+          </div>
+          <h3 class="forecast_header">3 Day Forecast</h3>
 
-      <section class="currentWeather">
-        <h3 class="current_header">Current Weather</h3>
-        <table class="current_table">
-          <tbody>
-            <tr>
-              <td>Currently: <span id="currentTemp"></span>&deg;F</td>
-            </tr>
-            <td>
-              <span id="imagesrc"></span> &nbsp;
-              <img src="" alt="" id="icon" />
-            </td>
-            <tr>
-              <td><span id="conditionDesc"></span></td>
-            </tr>
-            <tr>
-              <td>Humidity: <span id="currentHum"></span></td>
-            </tr>
-            <td></td>
-          </tbody>
-        </table>
+          <div id="daysofweek1" class="grid-item5"></div>
 
-        <h3 class="forecast_header">3 Day Forecast</h3>
-        <table class="forecast_table">
-          <tbody>
-            <tr>
-              <th><span id="daysofweek1"></span></th>
-              <th><span id="daysofweek2"></span></th>
-              <th><span id="daysofweek3"></span></th>
-            </tr>
-            <tr>
-              <td><span id="forecast1"></span>&deg;F</td>
-              <td><span id="forecast2"></span>&deg;F</td>
-              <td><span id="forecast3"></span>&deg;F</td>
-            </tr>
-            <tr>
-              <td>
-                <span id="imagesrc1"></span> &nbsp;
-                <img src="" alt="" id="icon1" />
-              </td>
-              <td>
-                <span id="imagesrc2"></span> &nbsp;
-                <img src="" alt="" id="icon2" />
-              </td>
-              <td>
-                <span id="imagesrc3"></span> &nbsp;
-                <img src="" alt="" id="icon3" />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <button
-        class="joinbtn"
-        type="button"
-        onclick="location.href = 'https:/kyrstinapope.github.io/idahofallscoc/join.html';"
-      >
-        Join the Chamber!
-      </button>
-      <section class="events_home">
-        <h2>Upcoming City Events:</h2>
-        <ul class="li_events_home">
-          <li>Out of the Box Lunch:<br />April 6th, 12pm @ WestBank</li>
-          <li>
-            Ribbon Cutting:<br />
-            April 8th, 12pm @ 1st Choice Urgent Care
-          </li>
-          <li>
-            Business After Hours:<br />
-            April 15th, 5pm @ Easten Idaho Visitor Information Center
-          </li>
-          <li>
-            Golf Tournament:<br />
-            May 14th, 9am @ Idaho Falls Country Club
-          </li>
-        </ul>
-      </section>
-      <section class="feature1">
-        <h2>C-A-L Ranch Stores</h2>
-        <p>
-          C-A-L Ranch Stores was founded in 1959 in Idaho Falls, ID, by Clinton,
-          Allen, and L. Wayne Murphy. The family used their initials “C-A-L to
-          create their brand. Their first store, located in Idaho Falls, ID was
-          called C-A-L Ranch & Farm Supply. The store had less than 3,000 square
-          feet and the primary products sold were tillage tools and hardware.
-          Due to the store’s popularity, it was relocated to a 6,000 square foot
-          building in its second year of operation. That same year, a second
-          store was opened in Rexburg, ID. C-A-L Ranch Stores continued its
-          expansion in 1967 by acquiring the stores of Farm & City in Blackfoot,
-          Pocatello, and Burley, ID while simultaneously expanding its
-          merchandise assortment to include apparel. <br />
-          <br />
-          On June 8, 1998, C-A-L Ranch Store opened the first Utah store in
-          Logan. Between 1998 and 2002, the company opened additional stores in
-          Spanish Fork, American Fork, Farr West, Tooele, and Cedar City, UT.
-          They now have 26 locations throughout Idaho, Utah, Arizona and Nevada.
-        </p>
-      </section>
-      <section class="feature2">
-        <h2>The Drink Factory</h2>
-        <p>
-          C-A-L Ranch Stores was founded in 1959 in Idaho Falls, ID, by Clinton,
-          Allen, and L. Wayne Murphy. The family used their initials “C-A-L to
-          create their brand. Their first store, located in Idaho Falls, ID was
-          called C-A-L Ranch & Farm Supply. The store had less than 3,000 square
-          feet and the primary products sold were tillage tools and hardware.
-          Due to the store’s popularity, it was relocated to a 6,000 square foot
-          building in its second year of operation. That same year, a second
-          store was opened in Rexburg, ID. C-A-L Ranch Stores continued its
-          expansion in 1967 by acquiring the stores of Farm & City in Blackfoot,
-          Pocatello, and Burley, ID while simultaneously expanding its
-          merchandise assortment to include apparel. <br />
-          <br />
-          On June 8, 1998, C-A-L Ranch Store opened the first Utah store in
-          Logan. Between 1998 and 2002, the company opened additional stores in
-          Spanish Fork, American Fork, Farr West, Tooele, and Cedar City, UT.
-          They now have 26 locations throughout Idaho, Utah, Arizona and Nevada.
-        </p>
-      </section>
-      <section class="feature3">
-        <h2>Abracadabras</h2>
-        <p>
-          C-A-L Ranch Stores was founded in 1959 in Idaho Falls, ID, by Clinton,
-          Allen, and L. Wayne Murphy. The family used their initials “C-A-L to
-          create their brand. Their first store, located in Idaho Falls, ID was
-          called C-A-L Ranch & Farm Supply. The store had less than 3,000 square
-          feet and the primary products sold were tillage tools and hardware.
-          Due to the store’s popularity, it was relocated to a 6,000 square foot
-          building in its second year of operation. That same year, a second
-          store was opened in Rexburg, ID. C-A-L Ranch Stores continued its
-          expansion in 1967 by acquiring the stores of Farm & City in Blackfoot,
-          Pocatello, and Burley, ID while simultaneously expanding its
-          merchandise assortment to include apparel. <br />
-          <br />
-          On June 8, 1998, C-A-L Ranch Store opened the first Utah store in
-          Logan. Between 1998 and 2002, the company opened additional stores in
-          Spanish Fork, American Fork, Farr West, Tooele, and Cedar City, UT.
-          They now have 26 locations throughout Idaho, Utah, Arizona and Nevada.
-        </p>
-      </section>
+          <div id="forecast1" class="grid-item6">&deg;F</div>
+          <div id="imagesrc1"></div>
+          &nbsp;
+          <img class="grid-item7" src="" alt="" id="icon1" />
 
-      <section class="homeArticle1">
-        <h2>Idaho Falls Chamber of Commerce</h2>
-        <p class="homeText">
-          Goals: <br />
-          <br />
-          The area around Idaho Falls was first sparsely settled by cattle and
-          sheep ranchers. No significant development took place until 1864, when
-          a man named Harry Rickets built and operated a ferry on the Snake
-          River. The ferry served a new tide of westward migration and travel on
-          the Montana Trail following the Bear River Massacre of Shoshone
-          Indians in 1863.
-          <br />
-          <br />
-          Purpose:
-          <br />
-          <br />
-          The present-day site of Idaho Falls became a permanent settlement when
-          freighter Matt Taylor built a timber-frame toll bridge across a narrow
-          black basaltic gorge of the river 7 miles (11 km) downstream from the
-          ferry. The bridge improved travel for settlers moving north and west,
-          and for miners, freighters, and others seeking riches in the gold
-          fields of Idaho and Montana—especially the boom towns of Bannack and
-          Virginia City.
-        </p>
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://en.wikipedia.org/wiki/Idaho_Falls,_Idaho#:~:text=The%20area%20around%20Idaho%20Falls,N%20112%C2%B03.528%E2%80%B2W"
-          >More Idaho Falls History</a
-        >
-      </section>
+          <div id="daysofweek2" class="grid-item8"></div>
 
-      <section class="homeArticle2">
-        <h2>Idaho Falls Could See Population Boom in Next 10 Years</h2>
-        <p class="homeText">
-          <img
-            id="art-image"
-            src="/idahofallscoc/images/cam_house.jpg"
-            alt="Moving"
-          />
-          City experts expect the new U.S. Census to show Idaho Falls with its
-          usual steady growth of about 1.5 to 2%, but they are bracing for a
-          possible major boom in population possibly doubling the city’s size
-          over the next decade.
-          <br /><br />
-          Brad Cramer, director of Community Development Services Department for
-          Idaho Falls, points to the potential of the small modular reactor
-          project at the Idaho National Laboratory desert site and the rise of
-          the “Zoom towns” phenomenon across the West to cause a major influx
-          for Idaho Falls and surrounding towns.
-          <br /><br />“We feel like we’re primed to see a boom,” Cramer said.
-          “The biggest booms we’ve had are when the INL came to town. We doubled
-          not only in population but in landmass. ... We might not double in
-          population, that might be farfetched over the next decade, but it’s
-          also not unthinkable.”<br /><br />Cramer pegs Idaho Falls’ current
-          population in the mid to high 60,000 range, which would put it about
-          14 percent higher than its 2010 Census of 56,813. The Census Bureau
-          estimated the city’s population at 61,535 in 2018. That put it as the
-          state’s fourth-largest city and largest outside of the Treasure
-          Valley. Eastern Idaho continues to log steady growth, with towns such
-          as Ammon growing at nearly twice the rate as Idaho Falls. Ammon topped
-          16,000 for the first time in 2019. <br /><br />
-        </p>
+          <div id="forecast2" class="grid-item9">&deg;F</div>
+          <div id="imagesrc2"></div>
+          &nbsp;
+          <img class="grid-item10" src="" alt="" id="icon2" />
 
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://www.postregister.com/news/local/idaho-falls-could-see-population-boom-in-next-10-years/article_51769b11-3ff7-5a1c-814a-b78bbb943769.html"
-          >View Full Article</a
-        >
-      </section>
-      <section class="info">
-        <h3>Contact Us:</h3>
-        <i class="fas fa-map-pin"></i> 1234 Idaho Drive <br />
-        Preston, ID 83263 <br /><br /><i class="fas fa-phone"></i>
-        1-208-123-4567 <br /><i class="fas fa-envelope-open-text"></i>
-        idww@gmail.com <br /><br />
-        <i class="fas fa-at"></i>
-        Follow Us on Social Media @IDWW
+          <div id="daysofweek3" class="grid-item11"></div>
 
-        <div class="socialMedia">
-          <a target="_blank" rel="noopener" href="https://www.instagram.com"
-            ><img src="/lesson11/images/instagram.jpg" alt="Instagram"
-          /></a>
-          <a target="_blank" rel="noopener" href="https://www.facebook.com"
-            ><img src="/lesson11/images/facebook.jpg" alt="Facebook"
-          /></a>
-          <a target="_blank" rel="noopener" href="https://www.youtube.com"
-            ><img src="/lesson11/images/youtube.jpg" alt="YouTube"
-          /></a>
+          <div id="forecast3" class="grid-item12">&deg;F</div>
+          <div id="imagesrc3"></div>
+          &nbsp;
+          <img class="grid-item13" src="" alt="" id="icon3" />
         </div>
-      </section>
+        <button
+          class="joinbtn"
+          type="button"
+          onclick="location.href = 'https:/kyrstinapope.github.io/idahofallscoc/join.html';"
+        >
+          Join the Chamber!
+        </button>
+        <div class="events_home">
+          <h2>Upcoming City Events:</h2>
+          <ul class="li_events_home">
+            <li>Out of the Box Lunch:<br />April 6th, 12pm @ WestBank</li>
+            <li>
+              Ribbon Cutting:<br />
+              April 8th, 12pm @ 1st Choice Urgent Care
+            </li>
+            <li>
+              Business After Hours:<br />
+              April 15th, 5pm @ Easten Idaho Visitor Information Center
+            </li>
+            <li>
+              Golf Tournament:<br />
+              May 14th, 9am @ Idaho Falls Country Club
+            </li>
+          </ul>
+        </div>
+        <h3 class="feature_header">Featured Businesses of the Week!</h3>
+        <div class="feature1">
+          <h2>C-A-L Ranch Stores</h2>
+          <p>
+            C-A-L Ranch Stores was founded in 1959 in Idaho Falls, ID, by
+            Clinton, Allen, and L. Wayne Murphy. The family used their initials
+            “C-A-L to create their brand. Their first store, located in Idaho
+            Falls, ID was called C-A-L Ranch & Farm Supply. The store had less
+            than 3,000 square feet and the primary products sold were tillage
+            tools and hardware. Due to the store’s popularity, it was relocated
+            to a 6,000 square foot building in its second year of operation.
+            That same year, a second store was opened in Rexburg, ID. C-A-L
+            Ranch Stores continued its expansion in 1967 by acquiring the stores
+            of Farm & City in Blackfoot, Pocatello, and Burley, ID while
+            simultaneously expanding its merchandise assortment to include
+            apparel.
+            <br />
+            <br />
+            On June 8, 1998, C-A-L Ranch Store opened the first Utah store in
+            Logan. Between 1998 and 2002, the company opened additional stores
+            in Spanish Fork, American Fork, Farr West, Tooele, and Cedar City,
+            UT. They now have 26 locations throughout Idaho, Utah, Arizona and
+            Nevada.
+          </p>
+        </div>
+        <div class="feature2">
+          <h2>The Drink Factory</h2>
+          <p>
+            The Drink Factory is a Idaho Falls Icon! They serve the best soda's
+            in town. They also have super good cookies and snacks. Whether you
+            are in the need of a caffinated beverage, or just a snack on the go,
+            they have got your covered.
+            <br />
+            <br />
+            Currently serving the Idaho Falls, Ammon, and Blackfoot areas. Who
+            know where else we could end up!
+          </p>
+        </div>
+        <div class="feature3">
+          <h2>Abracadabras</h2>
+          <p>
+            Do you like to eat? Then Abracadabras is for you! They are
+            classified as a breakfast and brunch restaurant but their food
+            selection doesn't stop there! They have amazing breakfast food, and
+            lunch food, and salads, and sandwhiches, and more! They are a Fun
+            Breakfast and Bistro restaurant that offers large portions and
+            unique dishes! But make sure to run over there quick! Because they
+            are only open for a few hours each day.
+          </p>
+        </div>
+        <div class="homeArticle1">
+          <h2>Idaho Falls Chamber of Commerce</h2>
+          <p class="homeText">
+            Goals and Purpose:
+            <br />
+            <br />
+            The Idaho Falls Chamber of Commerce's main goal is to keep our
+            community and local business' aware of everything that is offered.
+            We help promote, advertise, and encourage events put on by our local
+            business'. With help from each Business, and the community we can
+            grow our community, keep is looking beautiful and have fun events
+            together.
+          </p>
+        </div>
+        <div class="homeArticle2">
+          <h2>Idaho Falls Could See Population Boom in Next 10 Years</h2>
+          <p class="homeText">
+            <img
+              id="art-image"
+              src="/idahofallscoc/images/cam_house.jpg"
+              alt="Moving"
+            />
+            City experts expect the new U.S. Census to show Idaho Falls with its
+            usual steady growth of about 1.5 to 2%, but they are bracing for a
+            possible major boom in population possibly doubling the city’s size
+            over the next decade.
+            <br /><br />
+            Brad Cramer, director of Community Development Services Department
+            for Idaho Falls, points to the potential of the small modular
+            reactor project at the Idaho National Laboratory desert site and the
+            rise of the “Zoom towns” phenomenon across the West to cause a major
+            influx for Idaho Falls and surrounding towns.
+            <br /><br />“We feel like we’re primed to see a boom,” Cramer said.
+            “The biggest booms we’ve had are when the INL came to town. We
+            doubled not only in population but in landmass. ... We might not
+            double in population, that might be farfetched over the next decade,
+            but it’s also not unthinkable.”<br /><br />Cramer pegs Idaho Falls’
+            current population in the mid to high 60,000 range, which would put
+            it about 14 percent higher than its 2010 Census of 56,813. The
+            Census Bureau estimated the city’s population at 61,535 in 2018.
+            That put it as the state’s fourth-largest city and largest outside
+            of the Treasure Valley. Eastern Idaho continues to log steady
+            growth, with towns such as Ammon growing at nearly twice the rate as
+            Idaho Falls. Ammon topped 16,000 for the first time in 2019.
+            <br /><br />
+          </p>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://www.postregister.com/news/local/idaho-falls-could-see-population-boom-in-next-10-years/article_51769b11-3ff7-5a1c-814a-b78bbb943769.html"
+            >View Full Article</a
+          >
+        </div>
+      </div>
     </main>
+    <div class="info">
+      <h3>Contact Us:</h3>
+      <i class="fas fa-map-pin"></i> 12345 Liberty Drive,<br />Idaho Falls, ID
+      83404<br /><br /><i class="fas fa-phone"></i> 1-208-523-1234<br /><i
+        class="fas fa-envelope-open-text"
+      ></i>
+      idahofallscoc@gmail.com<br /><br /><i class="fas fa-at"></i> Follow Us on
+      Social Media @IdahoFallsCOC
+      <div class="socialMedia">
+        <a target="_blank" rel="noopener" href="https://www.instagram.com"
+          ><img src="/idahofallscoc/images/instagram.jpg" alt="Instagram"
+        /></a>
+        <a target="_blank" rel="noopener" href="https://www.facebook.com"
+          ><img src="/idahofallscoc/images/facebook.jpg" alt="Facebook"
+        /></a>
+        <a target="_blank" rel="noopener" href="https://www.youtube.com"
+          ><img src="/idahofallscoc/images/youtube.jpg" alt="YouTube"
+        /></a>
+      </div>
+    </div>
+
     <footer>
       <div class="social">
         &copy; 2021 - Kyrstina Pope | Idaho |
-        <a target="_blank" href="../index.html"> Home</a> |
+        <a
+          target="_blank"
+          href="https://kyrstinapope.github.io/idahofallscoc/index.html"
+          >Home</a
+        >
+        |
         <a target="_blank" href="https://www.byui.edu/online"
           >BYUI Online Learning</a
         >
-        |
-        <br />
-        <a target="_blank" href="https://openweathermap.org/"
+        | <br /><a target="_blank" href="https://openweathermap.org/"
           >Open Weather Map</a
         >
-        <br />
-        Last Modified:
+        |
+        <a target="_blank" href="/idahofallscoc/sources.html">Sources</a>
+        <br />Last Modified:
         <script>
           document.write(document.lastModified);
         </script>
       </div>
     </footer>
     <script src="js/toggle.js"></script>
-
-    <!-- <script src="js/date.js"></script> -->
-    <!-- <script src="js/lazyload.js"></script>
-    <script src="js/event.js"></script> -->
-
-    <!-- <script>
-      WebFont.load({google: {
+    <script src="js/date.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/event.js"></script>
+    <script>
+      WebFont.load({
+        google: {
           families: ["Kiwi Maru", serif, "Open Sans", sans - serif],
         },
       });
-    </script> -->
+    </script>
   </body>
 </html>
