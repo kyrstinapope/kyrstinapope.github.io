@@ -286,7 +286,17 @@ nav li a.active {
     margin-left: 5px;
     width: 95%;
 }
-
+.winner {
+    font-family: var(--paragraph-font);
+    margin-top: 15px;
+    border-color: var(--head);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    width: 95%;
+}
 .homeArticle1, .homeArticle2, .feature1, .feature2, .feature3 {
     margin-top: 15px;
     border-color: var(--head);

@@ -36,7 +36,7 @@
         grid-area: 1 / 1 / 1 / 3;
         grid-template-columns: repeat(5, auto);
         width: 98%;
-        margin-left: 186px;
+        margin-left: 200px;
         margin-right: 15px;
         padding: 0px;
     }
@@ -125,13 +125,19 @@
         font-size: 20px;
     }
     .joinbtn {
-        grid-column: 2/3;
-        /* grid-row: 3/3; */
+        grid-column: 1/4;
+        margin-left: 244px;
+        grid-row: 3/3;
     }
     .events_home {
+        grid-column: 1/2;
+        grid-row: 2/2;
+        margin-left: 200px;
+    }
+    .winner {
         grid-column: 2/3;
         grid-row: 2/2;
-        margin-left: 50px;
+        margin-left: 200px;
     }
     .feature_header {
         grid-column: 1/6;
